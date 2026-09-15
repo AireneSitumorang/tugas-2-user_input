@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio - Airene Sri Oktavia Situmorang | PPW 2026</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ========== HEADER + NAV ========== -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="#" class="logo">AS<span>.</span></a>
+      <nav class="main-nav" aria-label="Navigasi utama">
+        <ul>
+          <li><a href="#tentang">Tentang</a></li>
+          <li><a href="#portofolio">Portofolio</a></li>
+          <li><a href="#layanan">Layanan</a></li>
+          <li><a href="#kontak">Kontak</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ========== SECTION 1: TENTANG SAYA ========== -->
+    <section id="tentang" class="section tentang">
+      <div class="container">
+        <article class="profile-intro">
+          <div class="avatar-wrap">
+            <!-- Ganti src dengan foto kamu sendiri nanti -->
+            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=240&auto=format&fit=crop" 
+                 alt="Foto profil Airene Sri Oktavia Situmorang" class="avatar">
+            <span class="badge-status">Aktif</span>
+          </div>
+          <div class="intro-text">
+            <h1>Airene Sri Oktavia Situmorang</h1>
+            <p class="role">Mahasiswa S1 Sistem Informasi · Angkatan 2024</p>
+            <p class="bio">
+              Mahasiswa Semester 5 di Institut Teknologi Del yang tertarik pada pengembangan antarmuka web modern, 
+              kode bersih, dan desain yang accessible.
+            </p>
+            <ul class="quick-info">
+              <li><strong>Prodi:</strong> Sistem Informasi</li>
+              <li><strong>Angkatan:</strong> 2024</li>
+              <li><strong>Semester:</strong> 5</li>
+              <li><strong>TTL:</strong> Medan, 08 Oktober 2006</li>
+              <li><strong>Kampus:</strong> Institut Teknologi Del</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ========== SECTION 2: PORTOFOLIO + TABEL + LISTS ========== -->
+    <section id="portofolio" class="section portofolio">
+      <div class="container">
+        <h2 class="section-title">Portofolio & Capaian</h2>
+
+        <div class="table-wrapper">
+          <table>
+            <caption>Rekapitulasi Proyek & Matakuliah Terkait (Semester Genap 2025/2026)</caption>
+            <thead>
+              <tr>
+                <th scope="col">No</th>
+                <th scope="col">Nama Proyek / Matakuliah</th>
+                <th scope="col">Teknologi</th>
+                <th scope="col">Status</th>
+                <th scope="col">Nilai / Skor</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Website Portofolio Modern</td>
+                <td>HTML5, CSS3, Flexbox/Grid</td>
+                <td><span class="tag selesai">Selesai</span></td>
+                <td>A</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Formulir Interaktif Accessible</td>
+                <td>HTML Form, Validation, ARIA</td>
+                <td><span class="tag selesai">Selesai</span></td>
+                <td>A</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Landing Page Produk</td>
+                <td>CSS Grid, Responsive Design</td>
+                <td><span class="tag proses">Proses</span></td>
+                <td>—</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>Dashboard Sederhana</td>
+                <td>Flexbox, Semantic HTML</td>
+                <td><span class="tag proses">Proses</span></td>
+                <td>—</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td colspan="4">Total Proyek Selesai</td>
+                <td><strong>2</strong></td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+
+        <div class="lists-grid">
+          <div>
+            <h3>Keahlian Utama</h3>
+            <ul class="skill-list">
+              <li>HTML5 Semantic & Accessibility</li>
+              <li>Modern CSS (Flexbox & Grid)</li>
+              <li>Responsive Design & Media Queries</li>
+              <li>Git & GitHub Pages</li>
+              <li>UI/UX dasar & WCAG 2.2</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Langkah Pengembangan</h3>
+            <ol class="step-list">
+              <li>Perencanaan struktur semantik</li>
+              <li>Pembuatan wireframe & palet warna</li>
+              <li>Implementasi HTML + CSS</li>
+              <li>Pengujian aksesibilitas & responsif</li>
+              <li>Deploy ke GitHub Pages</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SECTION 3: FORMULIR LAYANAN ========== -->
+    <section id="layanan" class="section layanan">
+      <div class="container">
+        <h2 class="section-title">Formulir Konsultasi / Pemesanan Layanan</h2>
+        <p class="section-desc">Isi formulir di bawah ini. Semua field bertanda * wajib diisi.</p>
+
+        <form class="contact-form" action="#" method="POST" novalidate>
+          
+          <fieldset>
+            <legend>Data Identitas</legend>
+
+            <div class="form-group">
+              <label for="nama">Nama Lengkap <span class="req">*</span></label>
+              <input type="text" id="nama" name="nama" required placeholder="Contoh: Andi Wijaya">
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email <span class="req">*</span></label>
+              <input type="email" id="email" name="email" required placeholder="nama@del.ac.id"
+                     aria-describedby="email-help">
+              <small id="email-help" class="help-text">Gunakan email institusi jika ada.</small>
+            </div>
+
+            <div class="form-group">
+              <label for="telepon">Nomor Telepon / WhatsApp</label>
+              <input type="tel" id="telepon" name="telepon" placeholder="08xxxxxxxxxx">
+            </div>
+
+            <div class="form-group">
+              <label for="umur">Usia</label>
+              <input type="number" id="umur" name="umur" min="17" max="40" placeholder="Contoh: 20">
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Detail Permintaan</legend>
+
+            <div class="form-group">
+              <label for="topik">Topik Konsultasi <span class="req">*</span></label>
+              <select id="topik" name="topik" required>
+                <option value="">-- Pilih Topik --</option>
+                <option value="frontend">Frontend & UI/UX</option>
+                <option value="htmlcss">HTML5 & CSS Modern</option>
+                <option value="responsive">Responsive Design</option>
+                <option value="accessibility">Aksesibilitas (WCAG)</option>
+                <option value="github">Git & GitHub Pages</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <span class="label-like">Jenis Layanan yang Diinginkan</span>
+              <div class="radio-group">
+                <label><input type="radio" name="jenis" value="konsultasi" required> Konsultasi 1-on-1</label>
+                <label><input type="radio" name="jenis" value="review"> Code Review</label>
+                <label><input type="radio" name="jenis" value="workshop"> Mini Workshop</label>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <span class="label-like">Preferensi Tambahan</span>
+              <div class="checkbox-group">
+                <label><input type="checkbox" name="preferensi" value="sore"> Sesi sore hari</label>
+                <label><input type="checkbox" name="preferensi" value="rekaman"> Minta rekaman sesi</label>
+                <label><input type="checkbox" name="preferensi" value="materi"> Kirim materi tambahan</label>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="pesan">Deskripsi / Pertanyaan <span class="req">*</span></label>
+              <textarea id="pesan" name="pesan" rows="4" required
+                        placeholder="Tuliskan detail pertanyaan atau kebutuhan Anda..."></textarea>
+            </div>
+          </fieldset>
+
+          <button type="submit" class="btn-submit">Kirim Permintaan</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- ========== ASIDE ========== -->
+    <aside class="aside-info" aria-label="Informasi tambahan">
+      <div class="container">
+        <h2 class="section-title">Info Singkat</h2>
+        <div class="aside-cards">
+          <article class="aside-card">
+            <h3>Status Saat Ini</h3>
+            <p>Mahasiswa aktif Semester 5 Program Studi Sistem Informasi, Institut Teknologi Del, Angkatan 2024.</p>
+          </article>
+          <article class="aside-card">
+            <h3>Kontak Cepat</h3>
+            <ul>
+              <li>Email: airene.situmorang@students.del.ac.id</li>
+              <li>GitHub: github.com/username</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </aside>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Airene Sri Oktavia Situmorang · Institut Teknologi Del</p>
+      <p>Dibuat untuk Mata Kuliah Pemrograman dan Pengujian Aplikasi Web (12S3101)</p>
+      <nav aria-label="Navigasi footer">
+        <a href="#tentang">Tentang</a> · 
+        <a href="#portofolio">Portofolio</a> · 
+        <a href="#layanan">Layanan</a>
+      </nav>
+    </div>
+  </footer>
+
+</body>
+</html>
