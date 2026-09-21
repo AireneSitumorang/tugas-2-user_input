@@ -1,253 +1,455 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portofolio - Airene Sri Oktavia Situmorang | PPW 2026</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airene Sri Oktavia Situmorang | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-  <!-- ========== HEADER + NAV ========== -->
-  <header class="site-header">
-    <div class="header-inner">
-      <a href="#" class="logo">AS<span>.</span></a>
-      <nav class="main-nav" aria-label="Navigasi utama">
-        <ul>
-          <li><a href="#tentang">Tentang</a></li>
-          <li><a href="#portofolio">Portofolio</a></li>
-          <li><a href="#layanan">Layanan</a></li>
-          <li><a href="#kontak">Kontak</a></li>
-        </ul>
-      </nav>
+<header class="navbar">
+    <div class="nav-container">
+        <a href="#home" class="logo">AIR<span>ENE.</span></a>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
     </div>
-  </header>
+</header>
 
-  <main>
+<section id="home" class="hero">
+    <div class="hero-content">
+        <p class="small-title">INFORMATION SYSTEMS STUDENT</p>
 
-    <!-- ========== SECTION 1: TENTANG SAYA ========== -->
-    <section id="tentang" class="section tentang">
-      <div class="container">
-        <article class="profile-intro">
-          <div class="avatar-wrap">
-            <!-- Ganti src dengan foto kamu sendiri nanti -->
-            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=240&auto=format&fit=crop" 
-                 alt="Foto profil Airene Sri Oktavia Situmorang" class="avatar">
-            <span class="badge-status">Aktif</span>
-          </div>
-          <div class="intro-text">
-            <h1>Airene Sri Oktavia Situmorang</h1>
-            <p class="role">Mahasiswa S1 Sistem Informasi · Angkatan 2024</p>
-            <p class="bio">
-              Mahasiswa Semester 5 di Institut Teknologi Del yang tertarik pada pengembangan antarmuka web modern, 
-              kode bersih, dan desain yang accessible.
+        <h1>Hello,<br>I'm <span>Airene.</span></h1>
+
+        <h2>Airene Sri Oktavia Situmorang</h2>
+
+        <p class="hero-description">
+            Saya adalah mahasiswa aktif S1 Sistem Informasi di
+            Institut Teknologi Del yang memiliki ketertarikan
+            pada teknologi, UI/UX, web development, database,
+            dan multimedia.
+        </p>
+
+        <div class="student-status">● Mahasiswa Aktif — Institut Teknologi Del</div>
+
+        <div class="buttons">
+            <a href="#projects" class="btn primary">View My Portfolio</a>
+            <a href="#contact" class="btn secondary">Contact Me</a>
+        </div>
+    </div>
+
+    <div class="photo-section">
+        <div class="blue-circle"></div>
+
+        <div class="photo-frame">
+            <img src="profile.jpg.jpeg" alt="Foto Airene Sri Oktavia Situmorang">
+        </div>
+
+        <div class="photo-label">
+            <strong>Airene Sri Oktavia Situmorang</strong>
+            <span>Information Systems Student</span>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="section">
+    <div class="section-heading">
+        <p>01 — ABOUT ME</p>
+        <h2>Get to know <span>me.</span></h2>
+    </div>
+
+    <div class="about-container">
+        <div class="about-text">
+            <h3>Student who enjoys technology and creativity.</h3>
+
+            <p>
+                Saya merupakan mahasiswa aktif S1 Sistem Informasi
+                di Institut Teknologi Del. Saya tertarik mempelajari
+                bagaimana teknologi dapat digunakan untuk menciptakan
+                solusi yang bermanfaat.
             </p>
-            <ul class="quick-info">
-              <li><strong>Prodi:</strong> Sistem Informasi</li>
-              <li><strong>Angkatan:</strong> 2024</li>
-              <li><strong>Semester:</strong> 5</li>
-              <li><strong>TTL:</strong> Medan, 08 Oktober 2006</li>
-              <li><strong>Kampus:</strong> Institut Teknologi Del</li>
-            </ul>
-          </div>
-        </article>
-      </div>
-    </section>
 
-    <!-- ========== SECTION 2: PORTOFOLIO + TABEL + LISTS ========== -->
-    <section id="portofolio" class="section portofolio">
-      <div class="container">
-        <h2 class="section-title">Portofolio & Capaian</h2>
+            <p>
+                Selama perkuliahan, saya mempelajari berbagai bidang
+                seperti pemrograman, database, web development,
+                UI/UX, dan multimedia.
+            </p>
 
-        <div class="table-wrapper">
-          <table>
-            <caption>Rekapitulasi Proyek & Matakuliah Terkait (Semester Genap 2025/2026)</caption>
-            <thead>
-              <tr>
-                <th scope="col">No</th>
-                <th scope="col">Nama Proyek / Matakuliah</th>
-                <th scope="col">Teknologi</th>
-                <th scope="col">Status</th>
-                <th scope="col">Nilai / Skor</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">1</th>
-                <td>Website Portofolio Modern</td>
-                <td>HTML5, CSS3, Flexbox/Grid</td>
-                <td><span class="tag selesai">Selesai</span></td>
-                <td>A</td>
-              </tr>
-              <tr>
-                <th scope="row">2</th>
-                <td>Formulir Interaktif Accessible</td>
-                <td>HTML Form, Validation, ARIA</td>
-                <td><span class="tag selesai">Selesai</span></td>
-                <td>A</td>
-              </tr>
-              <tr>
-                <th scope="row">3</th>
-                <td>Landing Page Produk</td>
-                <td>CSS Grid, Responsive Design</td>
-                <td><span class="tag proses">Proses</span></td>
-                <td>—</td>
-              </tr>
-              <tr>
-                <th scope="row">4</th>
-                <td>Dashboard Sederhana</td>
-                <td>Flexbox, Semantic HTML</td>
-                <td><span class="tag proses">Proses</span></td>
-                <td>—</td>
-              </tr>
-            </tbody>
-            <tfoot>
-              <tr>
-                <td colspan="4">Total Proyek Selesai</td>
-                <td><strong>2</strong></td>
-              </tr>
-            </tfoot>
-          </table>
+            <p>
+                Selain kegiatan akademik, saya juga aktif dalam
+                organisasi dan berbagai project yang membantu saya
+                mengembangkan kemampuan teknis, kreativitas,
+                komunikasi, dan kerja sama.
+            </p>
         </div>
 
-        <div class="lists-grid">
-          <div>
-            <h3>Keahlian Utama</h3>
-            <ul class="skill-list">
-              <li>HTML5 Semantic & Accessibility</li>
-              <li>Modern CSS (Flexbox & Grid)</li>
-              <li>Responsive Design & Media Queries</li>
-              <li>Git & GitHub Pages</li>
-              <li>UI/UX dasar & WCAG 2.2</li>
-            </ul>
-          </div>
-          <div>
-            <h3>Langkah Pengembangan</h3>
-            <ol class="step-list">
-              <li>Perencanaan struktur semantik</li>
-              <li>Pembuatan wireframe & palet warna</li>
-              <li>Implementasi HTML + CSS</li>
-              <li>Pengujian aksesibilitas & responsif</li>
-              <li>Deploy ke GitHub Pages</li>
-            </ol>
-          </div>
-        </div>
-      </div>
-    </section>
+        <aside class="info-card">
+            <h3>Quick Information</h3>
 
-    <!-- ========== SECTION 3: FORMULIR LAYANAN ========== -->
-    <section id="layanan" class="section layanan">
-      <div class="container">
-        <h2 class="section-title">Formulir Konsultasi / Pemesanan Layanan</h2>
-        <p class="section-desc">Isi formulir di bawah ini. Semua field bertanda * wajib diisi.</p>
-
-        <form class="contact-form" action="#" method="POST" novalidate>
-          
-          <fieldset>
-            <legend>Data Identitas</legend>
-
-            <div class="form-group">
-              <label for="nama">Nama Lengkap <span class="req">*</span></label>
-              <input type="text" id="nama" name="nama" required placeholder="Contoh: Andi Wijaya">
+            <div class="info-item">
+                <span>FULL NAME</span>
+                <strong>Airene Sri Oktavia Situmorang</strong>
             </div>
 
-            <div class="form-group">
-              <label for="email">Email <span class="req">*</span></label>
-              <input type="email" id="email" name="email" required placeholder="nama@del.ac.id"
-                     aria-describedby="email-help">
-              <small id="email-help" class="help-text">Gunakan email institusi jika ada.</small>
+            <div class="info-item">
+                <span>STATUS</span>
+                <strong>Mahasiswa Aktif</strong>
             </div>
 
-            <div class="form-group">
-              <label for="telepon">Nomor Telepon / WhatsApp</label>
-              <input type="tel" id="telepon" name="telepon" placeholder="08xxxxxxxxxx">
+            <div class="info-item">
+                <span>UNIVERSITY</span>
+                <strong>Institut Teknologi Del</strong>
             </div>
 
-            <div class="form-group">
-              <label for="umur">Usia</label>
-              <input type="number" id="umur" name="umur" min="17" max="40" placeholder="Contoh: 20">
-            </div>
-          </fieldset>
-
-          <fieldset>
-            <legend>Detail Permintaan</legend>
-
-            <div class="form-group">
-              <label for="topik">Topik Konsultasi <span class="req">*</span></label>
-              <select id="topik" name="topik" required>
-                <option value="">-- Pilih Topik --</option>
-                <option value="frontend">Frontend & UI/UX</option>
-                <option value="htmlcss">HTML5 & CSS Modern</option>
-                <option value="responsive">Responsive Design</option>
-                <option value="accessibility">Aksesibilitas (WCAG)</option>
-                <option value="github">Git & GitHub Pages</option>
-              </select>
+            <div class="info-item">
+                <span>PROGRAM</span>
+                <strong>S1 Sistem Informasi</strong>
             </div>
 
-            <div class="form-group">
-              <span class="label-like">Jenis Layanan yang Diinginkan</span>
-              <div class="radio-group">
-                <label><input type="radio" name="jenis" value="konsultasi" required> Konsultasi 1-on-1</label>
-                <label><input type="radio" name="jenis" value="review"> Code Review</label>
-                <label><input type="radio" name="jenis" value="workshop"> Mini Workshop</label>
-              </div>
+            <div class="info-item">
+                <span>FACULTY</span>
+                <strong>Fakultas Informatika dan Teknik Elektro</strong>
             </div>
 
-            <div class="form-group">
-              <span class="label-like">Preferensi Tambahan</span>
-              <div class="checkbox-group">
-                <label><input type="checkbox" name="preferensi" value="sore"> Sesi sore hari</label>
-                <label><input type="checkbox" name="preferensi" value="rekaman"> Minta rekaman sesi</label>
-                <label><input type="checkbox" name="preferensi" value="materi"> Kirim materi tambahan</label>
-              </div>
+            <div class="info-item">
+                <span>INTEREST</span>
+                <strong>Technology & Digital Creative</strong>
             </div>
-
-            <div class="form-group">
-              <label for="pesan">Deskripsi / Pertanyaan <span class="req">*</span></label>
-              <textarea id="pesan" name="pesan" rows="4" required
-                        placeholder="Tuliskan detail pertanyaan atau kebutuhan Anda..."></textarea>
-            </div>
-          </fieldset>
-
-          <button type="submit" class="btn-submit">Kirim Permintaan</button>
-        </form>
-      </div>
-    </section>
-
-    <!-- ========== ASIDE ========== -->
-    <aside class="aside-info" aria-label="Informasi tambahan">
-      <div class="container">
-        <h2 class="section-title">Info Singkat</h2>
-        <div class="aside-cards">
-          <article class="aside-card">
-            <h3>Status Saat Ini</h3>
-            <p>Mahasiswa aktif Semester 5 Program Studi Sistem Informasi, Institut Teknologi Del, Angkatan 2024.</p>
-          </article>
-          <article class="aside-card">
-            <h3>Kontak Cepat</h3>
-            <ul>
-              <li>Email: airene.situmorang@students.del.ac.id</li>
-              <li>GitHub: github.com/username</li>
-            </ul>
-          </article>
-        </div>
-      </div>
-    </aside>
-
-  </main>
-
-  <!-- ========== FOOTER ========== -->
-  <footer class="site-footer">
-    <div class="container">
-      <p>&copy; 2026 Airene Sri Oktavia Situmorang · Institut Teknologi Del</p>
-      <p>Dibuat untuk Mata Kuliah Pemrograman dan Pengujian Aplikasi Web (12S3101)</p>
-      <nav aria-label="Navigasi footer">
-        <a href="#tentang">Tentang</a> · 
-        <a href="#portofolio">Portofolio</a> · 
-        <a href="#layanan">Layanan</a>
-      </nav>
+        </aside>
     </div>
-  </footer>
+</section>
+
+<section id="skills" class="section skills-section">
+    <div class="section-heading">
+        <p>02 — MY SKILLS</p>
+        <h2>Skills & <span>Interests.</span></h2>
+        <p class="heading-description">
+            Kemampuan yang saya kembangkan melalui perkuliahan,
+            project, dan kegiatan organisasi.
+        </p>
+    </div>
+
+    <div class="skills-grid">
+
+        <article class="skill-card">
+            <div class="skill-icon">&lt;/&gt;</div>
+            <span class="skill-number">01</span>
+            <h3>Web Development</h3>
+            <p>Membuat struktur dan tampilan website menggunakan HTML dan CSS.</p>
+            <div class="tags">
+                <span>HTML</span>
+                <span>CSS</span>
+            </div>
+        </article>
+
+        <article class="skill-card">
+            <div class="skill-icon">✦</div>
+            <span class="skill-number">02</span>
+            <h3>UI/UX Design</h3>
+            <p>Merancang interface dan pengalaman pengguna untuk aplikasi dan produk digital.</p>
+            <div class="tags">
+                <span>Figma</span>
+                <span>UI/UX</span>
+            </div>
+        </article>
+
+        <article class="skill-card">
+            <div class="skill-icon">DB</div>
+            <span class="skill-number">03</span>
+            <h3>Database</h3>
+            <p>Mempelajari pengelolaan data dan penggunaan SQL dalam sistem informasi.</p>
+            <div class="tags">
+                <span>SQL</span>
+                <span>Database</span>
+            </div>
+        </article>
+
+        <article class="skill-card">
+            <div class="skill-icon">+</div>
+            <span class="skill-number">04</span>
+            <h3>Multimedia</h3>
+            <p>Membuat kebutuhan visual, desain, dokumentasi, dan media untuk berbagai kegiatan.</p>
+            <div class="tags">
+                <span>Design</span>
+                <span>Creative</span>
+            </div>
+        </article>
+
+        <article class="skill-card">
+            <div class="skill-icon">JV</div>
+            <span class="skill-number">05</span>
+            <h3>Java Programming</h3>
+            <p>Mempelajari pemrograman berorientasi objek menggunakan bahasa Java.</p>
+            <div class="tags">
+                <span>Java</span>
+                <span>OOP</span>
+            </div>
+        </article>
+
+        <article class="skill-card">
+            <div class="skill-icon">GH</div>
+            <span class="skill-number">06</span>
+            <h3>Git & GitHub</h3>
+            <p>Menggunakan Git dan GitHub untuk mengelola project dan version control.</p>
+            <div class="tags">
+                <span>Git</span>
+                <span>GitHub</span>
+            </div>
+        </article>
+
+    </div>
+</section>
+
+<section id="projects" class="section">
+    <div class="section-heading">
+        <p>03 — MY PROJECTS</p>
+        <h2>Selected <span>works.</span></h2>
+        <p class="heading-description">
+            Beberapa project yang telah saya kerjakan selama
+            perkuliahan dan kegiatan pengembangan kemampuan.
+        </p>
+    </div>
+
+    <div class="projects-grid">
+
+        <article class="project-card featured">
+            <div class="project-top">
+                <span>01</span>
+                <span>UI/UX</span>
+            </div>
+            <h3>ImmuniCare</h3>
+            <p>
+                Perancangan aplikasi yang membantu orang tua
+                mendapatkan informasi dan mengelola jadwal
+                imunisasi anak.
+            </p>
+            <div class="tags">
+                <span>UI/UX</span>
+                <span>Figma</span>
+                <span>Mobile App</span>
+            </div>
+        </article>
+
+        <article class="project-card">
+            <div class="project-top">
+                <span>02</span>
+                <span>WEB</span>
+            </div>
+            <h3>Personal Portfolio</h3>
+            <p>
+                Website portfolio pribadi untuk menampilkan
+                profil, kemampuan, pendidikan, pengalaman,
+                dan project.
+            </p>
+            <div class="tags">
+                <span>HTML</span>
+                <span>CSS</span>
+            </div>
+        </article>
+
+        <article class="project-card">
+            <div class="project-top">
+                <span>03</span>
+                <span>SYSTEM</span>
+            </div>
+            <h3>Sistem Informasi Rumah Sakit</h3>
+            <p>
+                Project sistem informasi yang menerapkan konsep
+                pemrograman, database, inheritance, JDBC,
+                dan pengelolaan data.
+            </p>
+            <div class="tags">
+                <span>Java</span>
+                <span>SQL</span>
+                <span>Database</span>
+            </div>
+        </article>
+
+        <article class="project-card">
+            <div class="project-top">
+                <span>04</span>
+                <span>ORGANIZATION</span>
+            </div>
+            <h3>HIMSI Multimedia</h3>
+            <p>
+                Berkontribusi dalam bidang multimedia Himpunan
+                Mahasiswa Sistem Informasi melalui desain,
+                dokumentasi, dan kebutuhan media kegiatan.
+            </p>
+            <div class="tags">
+                <span>Multimedia</span>
+                <span>Design</span>
+                <span>Documentation</span>
+            </div>
+        </article>
+
+        <article class="project-card">
+            <div class="project-top">
+                <span>05</span>
+                <span>UI/UX</span>
+            </div>
+            <h3>SkillBridge</h3>
+            <p>
+                Project perancangan produk digital yang
+                dikembangkan melalui user research, affinity
+                mapping, dan perancangan solusi UI/UX.
+            </p>
+            <div class="tags">
+                <span>UI/UX</span>
+                <span>Figma</span>
+                <span>User Research</span>
+            </div>
+        </article>
+
+        <article class="project-card">
+            <div class="project-top">
+                <span>06</span>
+                <span>DATABASE</span>
+            </div>
+            <h3>Advanced SQL & Database</h3>
+            <p>
+                Praktikum database yang mencakup SQL, trigger,
+                stored procedure, transaksi, dan validasi data.
+            </p>
+            <div class="tags">
+                <span>SQL</span>
+                <span>Database</span>
+                <span>Trigger</span>
+            </div>
+        </article>
+
+        <article class="project-card">
+            <div class="project-top">
+                <span>07</span>
+                <span>PROJECT MANAGEMENT</span>
+            </div>
+            <h3>Sistem Informasi Kantin Digital Kampus</h3>
+            <p>
+                Perancangan sistem informasi kantin digital
+                kampus dengan pengelolaan project dan kolaborasi
+                menggunakan tools manajemen project.
+            </p>
+            <div class="tags">
+                <span>Information System</span>
+                <span>Asana</span>
+                <span>Project Management</span>
+            </div>
+        </article>
+
+    </div>
+</section>
+
+<section id="experience" class="section experience-section">
+    <div class="section-heading">
+        <p>04 — EXPERIENCE</p>
+        <h2>My <span>experience.</span></h2>
+        <p class="heading-description">
+            Pengalaman organisasi dan kegiatan pengembangan
+            diri selama menjadi mahasiswa.
+        </p>
+    </div>
+
+    <div class="experience-container">
+
+        <div class="experience-item">
+            <div class="experience-year">2026</div>
+
+            <div>
+                <span class="experience-type">CAMPUS AMBASSADOR</span>
+                <h3>MySkill Campus Ambassador 2026</h3>
+                <p>
+                    Berpartisipasi dalam program MySkill Campus
+                    Ambassador 2026 untuk mengembangkan kemampuan
+                    career development, communication, personal
+                    branding, dan content creation.
+                </p>
+                <div class="tags">
+                    <span>Campus Ambassador</span>
+                    <span>Content Creation</span>
+                    <span>Career Development</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="experience-item">
+            <div class="experience-year">ACTIVE</div>
+
+            <div>
+                <span class="experience-type">ORGANIZATION</span>
+                <h3>HIMSI — Multimedia</h3>
+                <p>
+                    Aktif berkontribusi dalam bidang multimedia
+                    Himpunan Mahasiswa Sistem Informasi melalui
+                    desain visual, dokumentasi, dan kebutuhan
+                    media kegiatan organisasi.
+                </p>
+                <div class="tags">
+                    <span>Multimedia</span>
+                    <span>Visual Design</span>
+                    <span>Documentation</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section id="education" class="section education-section">
+    <div class="section-heading">
+        <p>05 — EDUCATION</p>
+        <h2>My <span>education.</span></h2>
+    </div>
+
+    <div class="education-card">
+        <div class="education-year">2024 — PRESENT</div>
+
+        <div class="education-content">
+            <h3>Institut Teknologi Del</h3>
+            <p>S1 Sistem Informasi</p>
+            <span>Fakultas Informatika dan Teknik Elektro</span>
+            <div class="active-student">● Mahasiswa Aktif</div>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact-section">
+    <div class="contact-container">
+        <p class="small-title">06 — CONTACT</p>
+
+        <h2>Let's connect<br><span>with me.</span></h2>
+
+        <p>
+            Jika ingin terhubung atau berdiskusi mengenai
+            project, kegiatan mahasiswa, teknologi, maupun
+            kolaborasi, silakan hubungi saya melalui email
+            atau nomor telepon.
+        </p>
+
+        <div class="contact-buttons">
+            <a href="mailto:irensitumorang2020@gmail.com" class="email-button">
+                ✉ irensitumorang2020@gmail.com
+            </a>
+
+            <a href="tel:081272865624" class="phone-button">
+                ☎ 081272865624
+            </a>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Airene Sri Oktavia Situmorang</p>
+    <p>Information Systems Student · Institut Teknologi Del</p>
+</footer>
 
 </body>
 </html>
