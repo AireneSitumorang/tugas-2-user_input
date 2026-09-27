@@ -1,218 +1,177 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Airene Sri Oktavia Situmorang | Portfolio</title>
 
-    <!-- Bootstrap 5.3 CSS -->
+    <!-- Bootstrap 5 -->
     <link
         href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-        rel="stylesheet"
-    >
+        rel="stylesheet">
 
     <!-- Bootstrap Icons -->
     <link
         rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
-    >
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="custom-style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<!-- =========================
+<!-- =====================================================
      NAVBAR
-========================= -->
-<header>
-    <nav class="navbar navbar-expand-lg navbar-dark sticky-top custom-navbar">
-        <div class="container">
+===================================================== -->
 
-            <a class="navbar-brand fw-bold" href="#home">
-                AIR<span>ENE.</span>
-            </a>
-
-            <!-- Hamburger -->
-            <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarMenu"
-                aria-controls="navbarMenu"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-            >
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <!-- Menu -->
-            <div class="collapse navbar-collapse" id="navbarMenu">
-                <ul class="navbar-nav ms-auto">
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#home">Home</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#skills">Skills</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projects</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#experience">Experience</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#education">Education</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-
-                </ul>
-            </div>
-
-        </div>
-    </nav>
-</header>
-
-
-<!-- =========================
-     HERO
-========================= -->
-<main>
-
-<section id="home" class="hero-section">
+<nav class="navbar navbar-expand-lg bg-white sticky-top shadow-sm">
     <div class="container">
-        <div class="row align-items-center min-vh-100">
 
-            <!-- Text -->
-            <div class="col-lg-7">
-                <p class="hero-subtitle">
-                    HELLO, I'M
-                </p>
+        <a class="navbar-brand fw-bold fs-4" href="#home">
+            AIR<span>ENE.</span>
+        </a>
 
-                <h1>
-                    Airene Sri Oktavia Situmorang
-                </h1>
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
 
-                <h2>
-                    Information Systems Student
-                </h2>
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-                <p class="hero-description">
-                    Mahasiswa Sistem Informasi yang tertarik pada web development,
-                    UI/UX design, teknologi informasi, dan pengembangan sistem.
-                </p>
+        <div class="collapse navbar-collapse" id="navbarNav">
 
-                <div class="hero-buttons">
+            <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
 
-                    <a href="#projects" class="btn btn-primary custom-btn me-2">
-                        <i class="bi bi-folder2-open"></i>
-                        Lihat Portfolio
-                    </a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
 
-                    <a href="#contact" class="btn btn-outline-primary custom-outline-btn">
-                        <i class="bi bi-envelope"></i>
-                        Hubungi Saya
-                    </a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
 
-                </div>
-            </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
 
-            <!-- Profile -->
-            <div class="col-lg-5 text-center mt-5 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
 
-                <div class="profile-wrapper">
+                <li class="nav-item">
+                    <a class="nav-link" href="#experience">Experience</a>
+                </li>
 
-                    <img
-                        src="profile.jpg.jpeg"
-                        alt="Foto Airene"
-                        class="profile-image"
-                    >
+                <li class="nav-item">
+                    <a class="nav-link" href="#education">Education</a>
+                </li>
 
-                </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
 
-            </div>
+            </ul>
 
         </div>
     </div>
-</section>
+</nav>
 
 
-<!-- =========================
-     ABOUT
-========================= -->
-<section id="about" class="section-padding">
-    <div class="container">
+<!-- =====================================================
+     HOME
+===================================================== -->
 
-        <div class="section-title text-center">
-            <p class="section-label">ABOUT ME</p>
+<section id="home" class="hero-section py-5">
 
-            <h2>Tentang Saya</h2>
+    <div class="container py-lg-5">
 
-            <p>
-                Sedikit tentang saya dan ketertarikan saya di bidang teknologi.
-            </p>
-        </div>
+        <div class="row align-items-center g-5">
 
-        <div class="row align-items-center">
-
-            <div class="col-lg-6 mb-4 mb-lg-0">
-
-                <h3>Mahasiswa Sistem Informasi</h3>
-
-                <p>
-                    Saya adalah mahasiswa Program Studi Sistem Informasi
-                    yang memiliki ketertarikan terhadap teknologi,
-                    pengembangan website, database, dan desain antarmuka.
-                </p>
-
-                <p>
-                    Saya senang mempelajari hal baru dan mengembangkan
-                    kemampuan melalui berbagai tugas, project, dan kegiatan
-                    yang berhubungan dengan teknologi informasi.
-                </p>
-
-            </div>
+            <!-- HERO TEXT -->
 
             <div class="col-lg-6">
 
-                <div class="about-box">
+                <p class="text-primary fw-bold small letter-spacing mb-3">
+                    INFORMATION SYSTEMS STUDENT
+                </p>
 
-                    <div class="about-item">
-                        <i class="bi bi-person"></i>
-                        <div>
-                            <small>Nama</small>
-                            <strong>Airene Sri Oktavia Situmorang</strong>
-                        </div>
-                    </div>
+                <h1 class="display-4 fw-bold lh-1 mb-3">
+                    Hello,<br>
+                    I'm <span class="text-primary">Airene.</span>
+                </h1>
 
-                    <div class="about-item">
-                        <i class="bi bi-mortarboard"></i>
-                        <div>
-                            <small>Program Studi</small>
-                            <strong>Sistem Informasi</strong>
-                        </div>
-                    </div>
+                <h2 class="h4 fw-semibold text-dark mb-3">
+                    Airene Sri Oktavia Situmorang
+                </h2>
 
-                    <div class="about-item">
-                        <i class="bi bi-code-slash"></i>
-                        <div>
-                            <small>Interest</small>
-                            <strong>Web Development & UI/UX</strong>
-                        </div>
+                <p class="text-secondary lh-lg mb-3">
+                    Saya adalah mahasiswa aktif S1 Sistem Informasi
+                    di Institut Teknologi Del yang memiliki ketertarikan
+                    pada teknologi, UI/UX, web development, database,
+                    dan multimedia.
+                </p>
+
+                <div class="d-inline-flex align-items-center
+                            bg-light border rounded-pill
+                            px-3 py-2 mb-4">
+
+                    <span class="text-primary me-2">●</span>
+
+                    <small class="fw-semibold">
+                        Mahasiswa Aktif — Institut Teknologi Del
+                    </small>
+
+                </div>
+
+                <div class="d-flex flex-wrap gap-2">
+
+                    <a href="#projects"
+                       class="btn btn-primary px-4 py-2">
+                        View My Portfolio
+                    </a>
+
+                    <a href="#contact"
+                       class="btn btn-outline-primary px-4 py-2">
+                        Contact Me
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- HERO IMAGE -->
+
+            <div class="col-lg-6 text-center">
+
+                <div class="position-relative d-inline-block">
+
+                    <div class="hero-decoration"></div>
+
+                    <img
+                        src="profile.jpg.jpeg"
+                        alt="Foto Airene Sri Oktavia Situmorang"
+                        class="img-fluid rounded-4 shadow-lg profile-image">
+
+                    <div class="position-absolute bg-white rounded-3
+                                shadow p-3 photo-info">
+
+                        <strong class="d-block small">
+                            Airene Sri Oktavia Situmorang
+                        </strong>
+
+                        <small class="text-secondary">
+                            Information Systems Student
+                        </small>
+
                     </div>
 
                 </div>
@@ -220,515 +179,903 @@
             </div>
 
         </div>
+
     </div>
+
 </section>
 
 
-<!-- =========================
-     SKILLS
-========================= -->
-<section id="skills" class="section-padding section-light">
-    <div class="container">
+<!-- =====================================================
+     ABOUT
+===================================================== -->
 
-        <div class="section-title text-center">
-            <p class="section-label">MY SKILLS</p>
-            <h2>Kemampuan</h2>
-            <p>
-                Beberapa teknologi dan kemampuan yang sedang saya pelajari.
+<section id="about" class="py-5">
+
+    <div class="container py-lg-5">
+
+        <div class="mb-5">
+
+            <p class="text-primary fw-bold small letter-spacing mb-2">
+                01 — ABOUT ME
             </p>
+
+            <h2 class="fw-bold">
+                Get to know <span class="text-primary">me.</span>
+            </h2>
+
         </div>
+
+
+        <div class="row g-5">
+
+            <!-- ABOUT TEXT -->
+
+            <div class="col-lg-7">
+
+                <h3 class="h4 fw-bold mb-4">
+                    Student who enjoys technology and creativity.
+                </h3>
+
+                <p class="text-secondary lh-lg">
+                    Saya merupakan mahasiswa aktif S1 Sistem Informasi
+                    di Institut Teknologi Del. Saya tertarik mempelajari
+                    bagaimana teknologi dapat digunakan untuk menciptakan
+                    solusi yang bermanfaat.
+                </p>
+
+                <p class="text-secondary lh-lg">
+                    Selama perkuliahan, saya mempelajari berbagai bidang
+                    seperti pemrograman, database, web development,
+                    UI/UX, dan multimedia.
+                </p>
+
+                <p class="text-secondary lh-lg">
+                    Selain kegiatan akademik, saya juga aktif dalam
+                    organisasi dan berbagai project yang membantu saya
+                    mengembangkan kemampuan teknis, kreativitas,
+                    komunikasi, dan kerja sama.
+                </p>
+
+            </div>
+
+
+            <!-- QUICK INFORMATION -->
+
+            <div class="col-lg-5">
+
+                <div class="card border-0 shadow-sm rounded-4">
+
+                    <div class="card-body p-4">
+
+                        <h3 class="h5 fw-bold mb-4">
+                            Quick Information
+                        </h3>
+
+
+                        <div class="border-bottom py-3">
+
+                            <small class="text-primary fw-bold">
+                                FULL NAME
+                            </small>
+
+                            <p class="mb-0 fw-semibold">
+                                Airene Sri Oktavia Situmorang
+                            </p>
+
+                        </div>
+
+
+                        <div class="border-bottom py-3">
+
+                            <small class="text-primary fw-bold">
+                                STATUS
+                            </small>
+
+                            <p class="mb-0 fw-semibold">
+                                Mahasiswa Aktif
+                            </p>
+
+                        </div>
+
+
+                        <div class="border-bottom py-3">
+
+                            <small class="text-primary fw-bold">
+                                UNIVERSITY
+                            </small>
+
+                            <p class="mb-0 fw-semibold">
+                                Institut Teknologi Del
+                            </p>
+
+                        </div>
+
+
+                        <div class="border-bottom py-3">
+
+                            <small class="text-primary fw-bold">
+                                PROGRAM
+                            </small>
+
+                            <p class="mb-0 fw-semibold">
+                                S1 Sistem Informasi
+                            </p>
+
+                        </div>
+
+
+                        <div class="border-bottom py-3">
+
+                            <small class="text-primary fw-bold">
+                                FACULTY
+                            </small>
+
+                            <p class="mb-0 fw-semibold">
+                                Fakultas Informatika dan Teknik Elektro
+                            </p>
+
+                        </div>
+
+
+                        <div class="pt-3">
+
+                            <small class="text-primary fw-bold">
+                                INTEREST
+                            </small>
+
+                            <p class="mb-0 fw-semibold">
+                                Technology & Digital Creative
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     SKILLS
+===================================================== -->
+
+<section id="skills" class="py-5 bg-light">
+
+    <div class="container py-lg-5">
+
+        <div class="mb-5">
+
+            <p class="text-primary fw-bold small letter-spacing mb-2">
+                02 — MY SKILLS
+            </p>
+
+            <h2 class="fw-bold">
+                Skills & <span class="text-primary">Interests.</span>
+            </h2>
+
+            <p class="text-secondary mt-3">
+                Kemampuan yang saya kembangkan melalui perkuliahan,
+                project, dan kegiatan organisasi.
+            </p>
+
+        </div>
+
 
         <div class="row g-4">
 
-            <div class="col-md-6 col-lg-3">
-                <div class="skill-card">
-                    <i class="bi bi-filetype-html"></i>
-                    <h4>HTML</h4>
-                    <p>
-                        Membuat struktur halaman web menggunakan HTML5.
-                    </p>
+            <!-- SKILL 1 -->
+
+            <div class="col-md-6 col-lg-4">
+
+                <div class="card h-100 border-0 shadow-sm rounded-4 skill-card">
+
+                    <div class="card-body p-4">
+
+                        <div class="skill-icon mb-4">
+                            <i class="bi bi-code-slash"></i>
+                        </div>
+
+                        <small class="text-secondary fw-bold">
+                            01
+                        </small>
+
+                        <h3 class="h5 fw-bold mt-2">
+                            Web Development
+                        </h3>
+
+                        <p class="text-secondary small lh-lg">
+                            Membuat struktur dan tampilan website
+                            menggunakan HTML dan CSS.
+                        </p>
+
+                        <span class="badge text-bg-light">
+                            HTML
+                        </span>
+
+                        <span class="badge text-bg-light">
+                            CSS
+                        </span>
+
+                    </div>
+
                 </div>
+
             </div>
 
-            <div class="col-md-6 col-lg-3">
-                <div class="skill-card">
-                    <i class="bi bi-filetype-css"></i>
-                    <h4>CSS</h4>
-                    <p>
-                        Mendesain tampilan website dengan CSS dan responsive layout.
-                    </p>
+
+            <!-- SKILL 2 -->
+
+            <div class="col-md-6 col-lg-4">
+
+                <div class="card h-100 border-0 shadow-sm rounded-4 skill-card">
+
+                    <div class="card-body p-4">
+
+                        <div class="skill-icon mb-4">
+                            <i class="bi bi-stars"></i>
+                        </div>
+
+                        <small class="text-secondary fw-bold">
+                            02
+                        </small>
+
+                        <h3 class="h5 fw-bold mt-2">
+                            UI/UX Design
+                        </h3>
+
+                        <p class="text-secondary small lh-lg">
+                            Merancang interface dan pengalaman pengguna
+                            untuk aplikasi dan produk digital.
+                        </p>
+
+                        <span class="badge text-bg-light">
+                            Figma
+                        </span>
+
+                        <span class="badge text-bg-light">
+                            UI/UX
+                        </span>
+
+                    </div>
+
                 </div>
+
             </div>
 
-            <div class="col-md-6 col-lg-3">
-                <div class="skill-card">
-                    <i class="bi bi-code-square"></i>
-                    <h4>Java</h4>
-                    <p>
-                        Mempelajari pemrograman berorientasi objek menggunakan Java.
-                    </p>
+
+            <!-- SKILL 3 -->
+
+            <div class="col-md-6 col-lg-4">
+
+                <div class="card h-100 border-0 shadow-sm rounded-4 skill-card">
+
+                    <div class="card-body p-4">
+
+                        <div class="skill-icon mb-4">
+                            <i class="bi bi-database"></i>
+                        </div>
+
+                        <small class="text-secondary fw-bold">
+                            03
+                        </small>
+
+                        <h3 class="h5 fw-bold mt-2">
+                            Database
+                        </h3>
+
+                        <p class="text-secondary small lh-lg">
+                            Mempelajari pengelolaan data dan penggunaan
+                            SQL dalam sistem informasi.
+                        </p>
+
+                        <span class="badge text-bg-light">
+                            SQL
+                        </span>
+
+                        <span class="badge text-bg-light">
+                            Database
+                        </span>
+
+                    </div>
+
                 </div>
+
             </div>
 
-            <div class="col-md-6 col-lg-3">
-                <div class="skill-card">
-                    <i class="bi bi-palette"></i>
-                    <h4>UI/UX</h4>
-                    <p>
-                        Membuat rancangan antarmuka dan pengalaman pengguna.
-                    </p>
+
+            <!-- SKILL 4 -->
+
+            <div class="col-md-6 col-lg-4">
+
+                <div class="card h-100 border-0 shadow-sm rounded-4 skill-card">
+
+                    <div class="card-body p-4">
+
+                        <div class="skill-icon mb-4">
+                            <i class="bi bi-palette"></i>
+                        </div>
+
+                        <small class="text-secondary fw-bold">
+                            04
+                        </small>
+
+                        <h3 class="h5 fw-bold mt-2">
+                            Multimedia
+                        </h3>
+
+                        <p class="text-secondary small lh-lg">
+                            Membuat kebutuhan visual, desain,
+                            dokumentasi, dan media.
+                        </p>
+
+                        <span class="badge text-bg-light">
+                            Design
+                        </span>
+
+                        <span class="badge text-bg-light">
+                            Creative
+                        </span>
+
+                    </div>
+
                 </div>
+
+            </div>
+
+
+            <!-- SKILL 5 -->
+
+            <div class="col-md-6 col-lg-4">
+
+                <div class="card h-100 border-0 shadow-sm rounded-4 skill-card">
+
+                    <div class="card-body p-4">
+
+                        <div class="skill-icon mb-4">
+                            <i class="bi bi-filetype-java"></i>
+                        </div>
+
+                        <small class="text-secondary fw-bold">
+                            05
+                        </small>
+
+                        <h3 class="h5 fw-bold mt-2">
+                            Java Programming
+                        </h3>
+
+                        <p class="text-secondary small lh-lg">
+                            Mempelajari pemrograman berorientasi objek
+                            menggunakan bahasa Java.
+                        </p>
+
+                        <span class="badge text-bg-light">
+                            Java
+                        </span>
+
+                        <span class="badge text-bg-light">
+                            OOP
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- SKILL 6 -->
+
+            <div class="col-md-6 col-lg-4">
+
+                <div class="card h-100 border-0 shadow-sm rounded-4 skill-card">
+
+                    <div class="card-body p-4">
+
+                        <div class="skill-icon mb-4">
+                            <i class="bi bi-github"></i>
+                        </div>
+
+                        <small class="text-secondary fw-bold">
+                            06
+                        </small>
+
+                        <h3 class="h5 fw-bold mt-2">
+                            Git & GitHub
+                        </h3>
+
+                        <p class="text-secondary small lh-lg">
+                            Menggunakan Git dan GitHub untuk mengelola
+                            project dan version control.
+                        </p>
+
+                        <span class="badge text-bg-light">
+                            Git
+                        </span>
+
+                        <span class="badge text-bg-light">
+                            GitHub
+                        </span>
+
+                    </div>
+
+                </div>
+
             </div>
 
         </div>
 
     </div>
+
 </section>
 
 
-<!-- =========================
+<!-- =====================================================
      PROJECTS
-========================= -->
-<section id="projects" class="section-padding">
-    <div class="container">
+===================================================== -->
 
-        <div class="section-title text-center">
-            <p class="section-label">MY WORK</p>
+<section id="projects" class="py-5">
 
-            <h2>Portfolio</h2>
+    <div class="container py-lg-5">
 
-            <p>
-                Beberapa project yang pernah saya kerjakan.
+        <div class="mb-5">
+
+            <p class="text-primary fw-bold small letter-spacing mb-2">
+                03 — MY PROJECTS
             </p>
+
+            <h2 class="fw-bold">
+                Selected <span class="text-primary">works.</span>
+            </h2>
+
+            <p class="text-secondary mt-3">
+                Beberapa project yang telah saya kerjakan selama
+                perkuliahan dan kegiatan pengembangan kemampuan.
+            </p>
+
         </div>
 
 
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-
+        <div class="row g-4">
 
             <!-- PROJECT 1 -->
-            <div class="col">
-                <div class="card project-card h-100">
 
-                    <div class="project-banner project-one">
-                        <i class="bi bi-heart-pulse"></i>
-                    </div>
+            <div class="col-md-6">
 
-                    <div class="card-body">
+                <div class="card h-100 border-0 shadow-sm rounded-4 project-card">
 
-                        <span class="badge technology-badge">
-                            UI/UX
-                        </span>
+                    <div class="card-body p-4">
 
-                        <h5 class="card-title">
+                        <div class="d-flex justify-content-between mb-4">
+
+                            <span class="text-primary fw-bold">
+                                01
+                            </span>
+
+                            <span class="badge bg-primary-subtle text-primary">
+                                UI/UX
+                            </span>
+
+                        </div>
+
+                        <h3 class="h4 fw-bold">
                             ImmuniCare
-                        </h5>
+                        </h3>
 
-                        <p class="card-text">
-                            Aplikasi yang membantu orang tua memantau jadwal
-                            imunisasi, informasi vaksin, dan pengingat imunisasi.
+                        <p class="text-secondary small lh-lg">
+                            Perancangan aplikasi yang membantu orang tua
+                            mendapatkan informasi dan mengelola jadwal
+                            imunisasi anak.
                         </p>
 
-                        <button
-                            class="btn btn-primary btn-sm"
-                            data-bs-toggle="modal"
-                            data-bs-target="#modalImmuniCare"
-                        >
-                            <i class="bi bi-eye"></i>
-                            Lihat Detail
-                        </button>
+                        <span class="badge text-bg-light">UI/UX</span>
+                        <span class="badge text-bg-light">Figma</span>
+                        <span class="badge text-bg-light">Mobile App</span>
 
                     </div>
+
                 </div>
+
             </div>
 
 
             <!-- PROJECT 2 -->
-            <div class="col">
-                <div class="card project-card h-100">
 
-                    <div class="project-banner project-two">
-                        <i class="bi bi-chat-heart"></i>
-                    </div>
+            <div class="col-md-6">
 
-                    <div class="card-body">
+                <div class="card h-100 border-0 shadow-sm rounded-4 project-card">
 
-                        <span class="badge technology-badge">
-                            Web System
-                        </span>
+                    <div class="card-body p-4">
 
-                        <h5 class="card-title">
-                            Sistem Konseling Mahasiswa
-                        </h5>
+                        <div class="d-flex justify-content-between mb-4">
 
-                        <p class="card-text">
-                            Konsep sistem yang membantu mahasiswa melakukan
-                            pengajuan dan penjadwalan konseling.
+                            <span class="text-primary fw-bold">
+                                02
+                            </span>
+
+                            <span class="badge bg-primary-subtle text-primary">
+                                WEB
+                            </span>
+
+                        </div>
+
+                        <h3 class="h4 fw-bold">
+                            Personal Portfolio
+                        </h3>
+
+                        <p class="text-secondary small lh-lg">
+                            Website portfolio pribadi untuk menampilkan
+                            profil, kemampuan, pendidikan, pengalaman,
+                            dan project.
                         </p>
 
-                        <button
-                            class="btn btn-primary btn-sm"
-                            data-bs-toggle="modal"
-                            data-bs-target="#modalKonseling"
-                        >
-                            <i class="bi bi-eye"></i>
-                            Lihat Detail
-                        </button>
+                        <span class="badge text-bg-light">HTML</span>
+                        <span class="badge text-bg-light">CSS</span>
+                        <span class="badge text-bg-light">Bootstrap</span>
 
                     </div>
+
                 </div>
+
             </div>
 
 
             <!-- PROJECT 3 -->
-            <div class="col">
-                <div class="card project-card h-100">
 
-                    <div class="project-banner project-three">
-                        <i class="bi bi-cpu"></i>
-                    </div>
+            <div class="col-md-6">
 
-                    <div class="card-body">
+                <div class="card h-100 border-0 shadow-sm rounded-4 project-card">
 
-                        <span class="badge technology-badge">
-                            AI & Education
-                        </span>
+                    <div class="card-body p-4">
 
-                        <h5 class="card-title">
-                            LENTERA-AI
-                        </h5>
+                        <div class="d-flex justify-content-between mb-4">
 
-                        <p class="card-text">
-                            Konsep platform pembelajaran STEM berbasis Edge AI
-                            untuk membantu pembelajaran di daerah dengan
-                            koneksi internet terbatas.
+                            <span class="text-primary fw-bold">
+                                03
+                            </span>
+
+                            <span class="badge bg-primary-subtle text-primary">
+                                SYSTEM
+                            </span>
+
+                        </div>
+
+                        <h3 class="h4 fw-bold">
+                            Sistem Informasi Rumah Sakit
+                        </h3>
+
+                        <p class="text-secondary small lh-lg">
+                            Project sistem informasi yang menerapkan
+                            konsep pemrograman, database, inheritance,
+                            JDBC, dan pengelolaan data.
                         </p>
 
-                        <button
-                            class="btn btn-primary btn-sm"
-                            data-bs-toggle="modal"
-                            data-bs-target="#modalLentera"
-                        >
-                            <i class="bi bi-eye"></i>
-                            Lihat Detail
-                        </button>
+                        <span class="badge text-bg-light">Java</span>
+                        <span class="badge text-bg-light">SQL</span>
+                        <span class="badge text-bg-light">Database</span>
 
                     </div>
+
                 </div>
+
             </div>
 
 
             <!-- PROJECT 4 -->
-            <div class="col">
-                <div class="card project-card h-100">
 
-                    <div class="project-banner project-four">
-                        <i class="bi bi-shield-check"></i>
-                    </div>
+            <div class="col-md-6">
 
-                    <div class="card-body">
+                <div class="card h-100 border-0 shadow-sm rounded-4 project-card">
 
-                        <span class="badge technology-badge">
-                            AI & Algorithm
-                        </span>
+                    <div class="card-body p-4">
 
-                        <h5 class="card-title">
-                            UCS Health Insurance
-                        </h5>
+                        <div class="d-flex justify-content-between mb-4">
 
-                        <p class="card-text">
-                            Sistem konsep penerapan Uniform Cost Search
-                            untuk mengoptimalkan alur verifikasi klaim
-                            asuransi kesehatan.
+                            <span class="text-primary fw-bold">
+                                04
+                            </span>
+
+                            <span class="badge bg-primary-subtle text-primary">
+                                ORGANIZATION
+                            </span>
+
+                        </div>
+
+                        <h3 class="h4 fw-bold">
+                            HIMSI Multimedia
+                        </h3>
+
+                        <p class="text-secondary small lh-lg">
+                            Berkontribusi dalam bidang multimedia
+                            melalui desain, dokumentasi, dan kebutuhan
+                            media kegiatan.
                         </p>
 
-                        <button
-                            class="btn btn-primary btn-sm"
-                            data-bs-toggle="modal"
-                            data-bs-target="#modalUCS"
-                        >
-                            <i class="bi bi-eye"></i>
-                            Lihat Detail
-                        </button>
-
-                    </div>
-                </div>
-            </div>
-
-
-        </div>
-    </div>
-</section>
-
-
-<!-- =========================
-     EXPERIENCE
-========================= -->
-<section id="experience" class="section-padding section-light">
-
-    <div class="container">
-
-        <div class="section-title text-center">
-            <p class="section-label">EXPERIENCE</p>
-            <h2>Pengalaman</h2>
-        </div>
-
-        <div class="experience-box">
-
-            <div class="experience-item">
-
-                <div class="experience-icon">
-                    <i class="bi bi-people"></i>
-                </div>
-
-                <div>
-                    <h4>Project & Teamwork</h4>
-
-                    <p>
-                        Berpengalaman mengerjakan berbagai tugas dan project
-                        bersama tim dalam bidang Sistem Informasi.
-                    </p>
-                </div>
-
-            </div>
-
-            <div class="experience-item">
-
-                <div class="experience-icon">
-                    <i class="bi bi-laptop"></i>
-                </div>
-
-                <div>
-                    <h4>Academic Projects</h4>
-
-                    <p>
-                        Mengerjakan project yang berkaitan dengan programming,
-                        database, UI/UX, dan pengembangan sistem.
-                    </p>
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- =========================
-     EDUCATION
-========================= -->
-<section id="education" class="section-padding">
-
-    <div class="container">
-
-        <div class="section-title text-center">
-            <p class="section-label">EDUCATION</p>
-            <h2>Pendidikan</h2>
-        </div>
-
-        <div class="education-card">
-
-            <i class="bi bi-mortarboard-fill"></i>
-
-            <div>
-                <h3>Program Studi Sistem Informasi</h3>
-
-                <p>
-                    Institut Teknologi Del
-                </p>
-
-                <span>
-                    Mahasiswa Sistem Informasi
-                </span>
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- =========================
-     CONTACT
-========================= -->
-<section id="contact" class="section-padding section-light">
-
-    <div class="container">
-
-        <div class="section-title text-center">
-            <p class="section-label">CONTACT</p>
-
-            <h2>Hubungi Saya</h2>
-
-            <p>
-                Silakan isi form berikut jika ingin menghubungi saya.
-            </p>
-        </div>
-
-
-        <div class="row justify-content-center">
-
-            <div class="col-lg-8">
-
-                <form
-                    id="contactForm"
-                    class="contact-form needs-validation"
-                    novalidate
-                >
-
-                    <!-- NAME -->
-                    <div class="form-floating mb-3">
-
-                        <input
-                            type="text"
-                            class="form-control"
-                            id="name"
-                            placeholder="Nama Lengkap"
-                            required
-                        >
-
-                        <label for="name">
-                            <i class="bi bi-person"></i>
-                            Nama Lengkap
-                        </label>
-
-                        <div class="valid-feedback">
-                            Nama sudah diisi.
-                        </div>
-
-                        <div class="invalid-feedback">
-                            Nama wajib diisi.
-                        </div>
+                        <span class="badge text-bg-light">Multimedia</span>
+                        <span class="badge text-bg-light">Design</span>
 
                     </div>
 
+                </div>
 
-                    <!-- EMAIL -->
-                    <div class="input-group mb-3">
+            </div>
 
-                        <span class="input-group-text">
-                            <i class="bi bi-envelope"></i>
+
+            <!-- PROJECT 5 -->
+
+            <div class="col-md-6">
+
+                <div class="card h-100 border-0 shadow-sm rounded-4 project-card">
+
+                    <div class="card-body p-4">
+
+                        <div class="d-flex justify-content-between mb-4">
+
+                            <span class="text-primary fw-bold">
+                                05
+                            </span>
+
+                            <span class="badge bg-primary-subtle text-primary">
+                                UI/UX
+                            </span>
+
+                        </div>
+
+                        <h3 class="h4 fw-bold">
+                            SkillBridge
+                        </h3>
+
+                        <p class="text-secondary small lh-lg">
+                            Project perancangan produk digital melalui
+                            user research, affinity mapping, dan
+                            perancangan solusi UI/UX.
+                        </p>
+
+                        <span class="badge text-bg-light">Figma</span>
+                        <span class="badge text-bg-light">UI/UX</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROJECT 6 -->
+
+            <div class="col-md-6">
+
+                <div class="card h-100 border-0 shadow-sm rounded-4 project-card">
+
+                    <div class="card-body p-4">
+
+                        <div class="d-flex justify-content-between mb-4">
+
+                            <span class="text-primary fw-bold">
+                                06
+                            </span>
+
+                            <span class="badge bg-primary-subtle text-primary">
+                                DATABASE
+                            </span>
+
+                        </div>
+
+                        <h3 class="h4 fw-bold">
+                            Advanced SQL & Database
+                        </h3>
+
+                        <p class="text-secondary small lh-lg">
+                            Praktikum database yang mencakup SQL,
+                            trigger, stored procedure, transaksi,
+                            dan validasi data.
+                        </p>
+
+                        <span class="badge text-bg-light">SQL</span>
+                        <span class="badge text-bg-light">Trigger</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROJECT 7 -->
+
+            <div class="col-md-6">
+
+                <div class="card h-100 border-0 shadow-sm rounded-4 project-card">
+
+                    <div class="card-body p-4">
+
+                        <div class="d-flex justify-content-between mb-4">
+
+                            <span class="text-primary fw-bold">
+                                07
+                            </span>
+
+                            <span class="badge bg-primary-subtle text-primary">
+                                PROJECT MANAGEMENT
+                            </span>
+
+                        </div>
+
+                        <h3 class="h4 fw-bold">
+                            Sistem Informasi Kantin Digital Kampus
+                        </h3>
+
+                        <p class="text-secondary small lh-lg">
+                            Perancangan sistem informasi kantin digital
+                            kampus dengan pengelolaan project dan
+                            kolaborasi.
+                        </p>
+
+                        <span class="badge text-bg-light">
+                            Information System
                         </span>
 
-                        <div class="form-floating flex-grow-1">
+                        <span class="badge text-bg-light">
+                            Asana
+                        </span>
 
-                            <input
-                                type="email"
-                                class="form-control"
-                                id="email"
-                                placeholder="Email"
-                                required
-                            >
+                    </div>
 
-                            <label for="email">
-                                Email
-                            </label>
+                </div>
 
-                            <div class="invalid-feedback">
-                                Masukkan email yang valid.
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     EXPERIENCE
+===================================================== -->
+
+<section id="experience" class="py-5 bg-light">
+
+    <div class="container py-lg-5">
+
+        <div class="mb-5">
+
+            <p class="text-primary fw-bold small letter-spacing mb-2">
+                04 — EXPERIENCE
+            </p>
+
+            <h2 class="fw-bold">
+                My <span class="text-primary">experience.</span>
+            </h2>
+
+            <p class="text-secondary mt-3">
+                Pengalaman organisasi dan kegiatan pengembangan
+                diri selama menjadi mahasiswa.
+            </p>
+
+        </div>
+
+
+        <div class="row g-4">
+
+            <div class="col-12">
+
+                <div class="card border-0 shadow-sm rounded-4">
+
+                    <div class="card-body p-4">
+
+                        <div class="row g-4">
+
+                            <div class="col-md-2">
+
+                                <span class="text-primary fw-bold">
+                                    2026
+                                </span>
+
+                            </div>
+
+                            <div class="col-md-10">
+
+                                <small class="text-primary fw-bold">
+                                    CAMPUS AMBASSADOR
+                                </small>
+
+                                <h3 class="h4 fw-bold mt-1">
+                                    MySkill Campus Ambassador 2026
+                                </h3>
+
+                                <p class="text-secondary small lh-lg">
+                                    Berpartisipasi dalam program MySkill
+                                    Campus Ambassador 2026 untuk
+                                    mengembangkan kemampuan career
+                                    development, communication, personal
+                                    branding, dan content creation.
+                                </p>
+
+                                <span class="badge text-bg-light">
+                                    Campus Ambassador
+                                </span>
+
+                                <span class="badge text-bg-light">
+                                    Content Creation
+                                </span>
+
+                                <span class="badge text-bg-light">
+                                    Career Development
+                                </span>
+
                             </div>
 
                         </div>
 
                     </div>
 
+                </div>
 
-                    <!-- SELECT -->
-                    <div class="form-floating mb-3">
+            </div>
 
-                        <select
-                            class="form-select"
-                            id="service"
-                            required
-                        >
 
-                            <option value="" selected disabled>
-                                Pilih layanan
-                            </option>
+            <div class="col-12">
 
-                            <option value="website">
-                                Website
-                            </option>
+                <div class="card border-0 shadow-sm rounded-4">
 
-                            <option value="uiux">
-                                UI/UX Design
-                            </option>
+                    <div class="card-body p-4">
 
-                            <option value="consultation">
-                                Konsultasi Project
-                            </option>
+                        <div class="row g-4">
 
-                        </select>
+                            <div class="col-md-2">
 
-                        <label for="service">
-                            Pilih Kebutuhan
-                        </label>
+                                <span class="text-primary fw-bold">
+                                    ACTIVE
+                                </span>
 
-                        <div class="invalid-feedback">
-                            Silakan pilih kebutuhan.
+                            </div>
+
+                            <div class="col-md-10">
+
+                                <small class="text-primary fw-bold">
+                                    ORGANIZATION
+                                </small>
+
+                                <h3 class="h4 fw-bold mt-1">
+                                    HIMSI — Multimedia
+                                </h3>
+
+                                <p class="text-secondary small lh-lg">
+                                    Aktif berkontribusi dalam bidang
+                                    multimedia Himpunan Mahasiswa
+                                    Sistem Informasi melalui desain
+                                    visual, dokumentasi, dan kebutuhan
+                                    media kegiatan organisasi.
+                                </p>
+
+                                <span class="badge text-bg-light">
+                                    Multimedia
+                                </span>
+
+                                <span class="badge text-bg-light">
+                                    Visual Design
+                                </span>
+
+                                <span class="badge text-bg-light">
+                                    Documentation
+                                </span>
+
+                            </div>
+
                         </div>
 
                     </div>
 
-
-                    <!-- MESSAGE -->
-                    <div class="form-floating mb-3">
-
-                        <textarea
-                            class="form-control message-input"
-                            id="message"
-                            placeholder="Pesan"
-                            required
-                        ></textarea>
-
-                        <label for="message">
-                            Pesan
-                        </label>
-
-                        <div class="invalid-feedback">
-                            Pesan wajib diisi.
-                        </div>
-
-                    </div>
-
-
-                    <!-- CHECKBOX -->
-                    <div class="form-check mb-4">
-
-                        <input
-                            class="form-check-input"
-                            type="checkbox"
-                            id="agreement"
-                            required
-                        >
-
-                        <label
-                            class="form-check-label"
-                            for="agreement"
-                        >
-                            Saya menyetujui bahwa data yang saya kirim
-                            digunakan untuk keperluan komunikasi.
-                        </label>
-
-                        <div class="invalid-feedback">
-                            Kamu harus menyetujui sebelum mengirim.
-                        </div>
-
-                    </div>
-
-
-                    <button
-                        type="submit"
-                        class="btn btn-primary custom-btn"
-                    >
-                        <i class="bi bi-send"></i>
-                        Kirim Pesan
-                    </button>
-
-                </form>
+                </div>
 
             </div>
 
@@ -738,71 +1085,63 @@
 
 </section>
 
-</main>
+
+<!-- =====================================================
+     EDUCATION
+===================================================== -->
+
+<section id="education" class="py-5">
+
+    <div class="container py-lg-5">
+
+        <div class="mb-5">
+
+            <p class="text-primary fw-bold small letter-spacing mb-2">
+                05 — EDUCATION
+            </p>
+
+            <h2 class="fw-bold">
+                My <span class="text-primary">education.</span>
+            </h2>
+
+        </div>
 
 
-<!-- =========================
-     MODAL 1 - IMMUNICARE
-========================= -->
-<div
-    class="modal fade"
-    id="modalImmuniCare"
-    tabindex="-1"
-    aria-labelledby="modalImmuniCareLabel"
-    aria-hidden="true"
->
+        <div class="card border-0 shadow-sm rounded-4">
 
-    <div class="modal-dialog modal-dialog-centered">
+            <div class="card-body p-4 p-lg-5">
 
-        <div class="modal-content">
+                <div class="row align-items-center g-4">
 
-            <div class="modal-header">
+                    <div class="col-md-3">
 
-                <h5
-                    class="modal-title"
-                    id="modalImmuniCareLabel"
-                >
-                    ImmuniCare
-                </h5>
+                        <span class="text-primary fw-bold small">
+                            2024 — PRESENT
+                        </span>
 
-                <button
-                    type="button"
-                    class="btn-close"
-                    data-bs-dismiss="modal"
-                    aria-label="Close"
-                ></button>
+                    </div>
 
-            </div>
+                    <div class="col-md-9">
 
-            <div class="modal-body">
+                        <h3 class="h3 fw-bold mb-2">
+                            Institut Teknologi Del
+                        </h3>
 
-                <p>
-                    ImmuniCare merupakan konsep aplikasi mobile yang membantu
-                    orang tua mengingat jadwal imunisasi anak.
-                </p>
+                        <p class="text-primary fw-semibold mb-1">
+                            S1 Sistem Informasi
+                        </p>
 
-                <p>
-                    Fitur yang dirancang meliputi pengingat imunisasi,
-                    informasi vaksin, booking, dan tracking imunisasi.
-                </p>
+                        <p class="text-secondary mb-3">
+                            Fakultas Informatika dan Teknik Elektro
+                        </p>
 
-                <div class="modal-tags">
-                    <span class="badge">UI/UX</span>
-                    <span class="badge">Figma</span>
-                    <span class="badge">Mobile App</span>
+                        <span class="badge bg-success-subtle text-success rounded-pill px-3 py-2">
+                            ● Mahasiswa Aktif
+                        </span>
+
+                    </div>
+
                 </div>
-
-            </div>
-
-            <div class="modal-footer">
-
-                <button
-                    type="button"
-                    class="btn btn-secondary"
-                    data-bs-dismiss="modal"
-                >
-                    Tutup
-                </button>
 
             </div>
 
@@ -810,71 +1149,62 @@
 
     </div>
 
-</div>
+</section>
 
 
-<!-- =========================
-     MODAL 2 - KONSELING
-========================= -->
-<div
-    class="modal fade"
-    id="modalKonseling"
-    tabindex="-1"
-    aria-labelledby="modalKonselingLabel"
-    aria-hidden="true"
->
+<!-- =====================================================
+     CONTACT
+===================================================== -->
 
-    <div class="modal-dialog modal-dialog-centered">
+<section id="contact" class="contact-section py-5">
 
-        <div class="modal-content">
+    <div class="container py-lg-5">
 
-            <div class="modal-header">
+        <div class="row justify-content-center">
 
-                <h5
-                    class="modal-title"
-                    id="modalKonselingLabel"
-                >
-                    Sistem Konseling Mahasiswa
-                </h5>
+            <div class="col-lg-8 text-center">
 
-                <button
-                    type="button"
-                    class="btn-close"
-                    data-bs-dismiss="modal"
-                    aria-label="Close"
-                ></button>
-
-            </div>
-
-            <div class="modal-body">
-
-                <p>
-                    Sistem Konseling Mahasiswa dirancang untuk membantu
-                    mahasiswa mengajukan konseling secara lebih terstruktur.
+                <p class="text-info fw-bold small letter-spacing">
+                    06 — CONTACT
                 </p>
 
-                <p>
-                    Alur sistem mencakup pengajuan, review konselor,
-                    penjadwalan, sesi konseling, dan penyimpanan laporan.
+                <h2 class="display-5 fw-bold text-white mt-3">
+                    Let's connect
+                    <br>
+                    <span>with me.</span>
+                </h2>
+
+                <p class="text-light opacity-75 lh-lg mt-4">
+                    Jika ingin terhubung atau berdiskusi mengenai
+                    project, kegiatan mahasiswa, teknologi, maupun
+                    kolaborasi, silakan hubungi saya melalui email
+                    atau nomor telepon.
                 </p>
 
-                <div class="modal-tags">
-                    <span class="badge">Web System</span>
-                    <span class="badge">System Analysis</span>
-                    <span class="badge">Database</span>
+
+                <div class="d-flex flex-wrap justify-content-center
+                            gap-2 mt-4">
+
+                    <a
+                        href="mailto:irensitumorang2020@gmail.com"
+                        class="btn btn-primary px-4 py-3">
+
+                        <i class="bi bi-envelope me-2"></i>
+                        irensitumorang2020@gmail.com
+
+                    </a>
+
+
+                    <a
+                        href="tel:081272865624"
+                        class="btn btn-outline-light px-4 py-3">
+
+                        <i class="bi bi-telephone me-2"></i>
+                        081272865624
+
+                    </a>
+
                 </div>
-
-            </div>
-
-            <div class="modal-footer">
-
-                <button
-                    type="button"
-                    class="btn btn-secondary"
-                    data-bs-dismiss="modal"
-                >
-                    Tutup
-                </button>
 
             </div>
 
@@ -882,222 +1212,46 @@
 
     </div>
 
-</div>
+</section>
 
 
-<!-- =========================
-     MODAL 3 - LENTERA
-========================= -->
-<div
-    class="modal fade"
-    id="modalLentera"
-    tabindex="-1"
-    aria-labelledby="modalLenteraLabel"
-    aria-hidden="true"
->
-
-    <div class="modal-dialog modal-dialog-centered">
-
-        <div class="modal-content">
-
-            <div class="modal-header">
-
-                <h5
-                    class="modal-title"
-                    id="modalLenteraLabel"
-                >
-                    LENTERA-AI
-                </h5>
-
-                <button
-                    type="button"
-                    class="btn-close"
-                    data-bs-dismiss="modal"
-                ></button>
-
-            </div>
-
-            <div class="modal-body">
-
-                <p>
-                    LENTERA-AI merupakan konsep platform pembelajaran STEM
-                    berbasis Edge AI yang ditujukan untuk membantu siswa
-                    di daerah dengan keterbatasan koneksi internet.
-                </p>
-
-                <div class="modal-tags">
-                    <span class="badge">AI</span>
-                    <span class="badge">STEM</span>
-                    <span class="badge">Education</span>
-                </div>
-
-            </div>
-
-            <div class="modal-footer">
-
-                <button
-                    type="button"
-                    class="btn btn-secondary"
-                    data-bs-dismiss="modal"
-                >
-                    Tutup
-                </button>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</div>
-
-
-<!-- =========================
-     MODAL 4 - UCS
-========================= -->
-<div
-    class="modal fade"
-    id="modalUCS"
-    tabindex="-1"
-    aria-labelledby="modalUCSLabel"
-    aria-hidden="true"
->
-
-    <div class="modal-dialog modal-dialog-centered">
-
-        <div class="modal-content">
-
-            <div class="modal-header">
-
-                <h5
-                    class="modal-title"
-                    id="modalUCSLabel"
-                >
-                    UCS Health Insurance
-                </h5>
-
-                <button
-                    type="button"
-                    class="btn-close"
-                    data-bs-dismiss="modal"
-                ></button>
-
-            </div>
-
-            <div class="modal-body">
-
-                <p>
-                    Project ini menerapkan algoritma Uniform Cost Search
-                    untuk membantu menentukan alur verifikasi klaim
-                    asuransi kesehatan berdasarkan biaya atau bobot proses.
-                </p>
-
-                <div class="modal-tags">
-                    <span class="badge">UCS</span>
-                    <span class="badge">AI</span>
-                    <span class="badge">Insurance</span>
-                </div>
-
-            </div>
-
-            <div class="modal-footer">
-
-                <button
-                    type="button"
-                    class="btn btn-secondary"
-                    data-bs-dismiss="modal"
-                >
-                    Tutup
-                </button>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</div>
-
-
-<!-- =========================
+<!-- =====================================================
      FOOTER
-========================= -->
-<footer class="footer">
+===================================================== -->
 
-    <div class="container text-center">
+<footer class="bg-dark text-secondary py-4">
 
-        <h5>AIRENE.</h5>
+    <div class="container">
 
-        <p>
-            Information Systems Student
-        </p>
+        <div class="row align-items-center g-3">
 
-        <div class="social-links">
+            <div class="col-md-6 text-center text-md-start">
 
-            <a href="#" aria-label="GitHub">
-                <i class="bi bi-github"></i>
-            </a>
+                <small>
+                    © 2026 Airene Sri Oktavia Situmorang
+                </small>
 
-            <a href="#" aria-label="LinkedIn">
-                <i class="bi bi-linkedin"></i>
-            </a>
+            </div>
 
-            <a href="#contact" aria-label="Email">
-                <i class="bi bi-envelope"></i>
-            </a>
+            <div class="col-md-6 text-center text-md-end">
+
+                <small>
+                    Information Systems Student · Institut Teknologi Del
+                </small>
+
+            </div>
 
         </div>
-
-        <hr>
-
-        <p class="copyright">
-            © 2026 Airene Sri Oktavia Situmorang. All Rights Reserved.
-        </p>
 
     </div>
 
 </footer>
 
 
-<!-- Bootstrap JS -->
+<!-- Bootstrap JavaScript -->
+
 <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
-</script>
-
-
-<!-- Form Validation -->
-<script>
-
-    (() => {
-        'use strict';
-
-        const form = document.getElementById('contactForm');
-
-        form.addEventListener('submit', function (event) {
-
-            if (!form.checkValidity()) {
-
-                event.preventDefault();
-                event.stopPropagation();
-
-            } else {
-
-                event.preventDefault();
-
-                alert('Pesan berhasil dikirim!');
-
-                form.reset();
-                form.classList.remove('was-validated');
-                return;
-
-            }
-
-            form.classList.add('was-validated');
-
-        });
-
-    })();
-
 </script>
 
 </body>
