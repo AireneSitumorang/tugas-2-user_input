@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "nama": "ImmuniCare",
+        "kategori": "UI/UX",
+        "deskripsi": "Perancangan aplikasi yang membantu orang tua mendapatkan informasi dan mengelola jadwal imunisasi anak.",
+        "detail": "ImmuniCare merupakan project perancangan aplikasi yang berfokus pada informasi vaksin, jadwal imunisasi, pengingat imunisasi, dan kebutuhan orang tua dalam memantau imunisasi anak.",
+        "tags": [
+            "UI/UX",
+            "Figma",
+            "Mobile App"
+        ]
+    },
+    {
+        "id": 2,
+        "nama": "Personal Portfolio",
+        "kategori": "WEB",
+        "deskripsi": "Website portfolio pribadi untuk menampilkan profil, kemampuan, pendidikan, pengalaman, dan project.",
+        "detail": "Personal Portfolio dibuat untuk menampilkan informasi diri, skills, project, pengalaman organisasi, pendidikan, dan informasi kontak dalam sebuah website.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "Web"
+        ]
+    },
+    {
+        "id": 3,
+        "nama": "Sistem Informasi Rumah Sakit",
+        "kategori": "SYSTEM",
+        "deskripsi": "Project sistem informasi yang menerapkan konsep pemrograman, database, inheritance, JDBC, dan pengelolaan data.",
+        "detail": "Project ini merupakan sistem informasi rumah sakit yang digunakan untuk menerapkan konsep Java, Object Oriented Programming, database, JDBC, inheritance, dan pengelolaan data.",
+        "tags": [
+            "Java",
+            "SQL",
+            "Database"
+        ]
+    },
+    {
+        "id": 4,
+        "nama": "HIMSI Multimedia",
+        "kategori": "ORGANIZATION",
+        "deskripsi": "Berkontribusi dalam bidang multimedia Himpunan Mahasiswa Sistem Informasi melalui desain, dokumentasi, dan kebutuhan media kegiatan.",
+        "detail": "HIMSI Multimedia merupakan pengalaman organisasi dalam membantu kebutuhan visual, desain, dokumentasi, dan media untuk berbagai kegiatan Himpunan Mahasiswa Sistem Informasi.",
+        "tags": [
+            "Multimedia",
+            "Design",
+            "Documentation"
+        ]
+    },
+    {
+        "id": 5,
+        "nama": "SkillBridge",
+        "kategori": "UI/UX",
+        "deskripsi": "Project perancangan produk digital yang dikembangkan melalui user research, affinity mapping, dan perancangan solusi UI/UX.",
+        "detail": "SkillBridge merupakan project perancangan produk digital yang menerapkan proses user research, pengelompokan insight, dan perancangan interface berdasarkan kebutuhan pengguna.",
+        "tags": [
+            "UI/UX",
+            "Figma",
+            "User Research"
+        ]
+    },
+    {
+        "id": 6,
+        "nama": "Advanced SQL & Database",
+        "kategori": "DATABASE",
+        "deskripsi": "Praktikum database yang mencakup SQL, trigger, stored procedure, transaksi, dan validasi data.",
+        "detail": "Project praktikum ini berfokus pada penerapan SQL lanjutan seperti trigger, stored procedure, transaksi, validasi data, dan pengelolaan database.",
+        "tags": [
+            "SQL",
+            "Database",
+            "Trigger"
+        ]
+    },
+    {
+        "id": 7,
+        "nama": "Sistem Informasi Kantin Digital Kampus",
+        "kategori": "PROJECT MANAGEMENT",
+        "deskripsi": "Perancangan sistem informasi kantin digital kampus dengan pengelolaan project dan kolaborasi menggunakan tools manajemen project.",
+        "detail": "Project ini berfokus pada perancangan sistem informasi kantin digital kampus serta pengelolaan aktivitas project menggunakan pendekatan project management dan tools kolaborasi.",
+        "tags": [
+            "Information System",
+            "Asana",
+            "Project Management"
+        ]
+    }
+]

@@ -1,25 +1,13 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Airene Sri Oktavia Situmorang | Portfolio</title>
 
-    <!-- Bootstrap 5.3 CSS -->
-    <link
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-        rel="stylesheet"
-    >
-
-    <!-- Bootstrap Icons -->
-    <link
-        rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
-    >
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="custom-style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -27,484 +15,428 @@
 <!-- =========================
      NAVBAR
 ========================= -->
-<header>
-    <nav class="navbar navbar-expand-lg navbar-dark sticky-top custom-navbar">
-        <div class="container">
 
-            <a class="navbar-brand fw-bold" href="#home">
-                AIR<span>ENE.</span>
-            </a>
+<header class="navbar">
 
-            <!-- Hamburger -->
-            <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarMenu"
-                aria-controls="navbarMenu"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-            >
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    <div class="nav-container">
 
-            <!-- Menu -->
-            <div class="collapse navbar-collapse" id="navbarMenu">
-                <ul class="navbar-nav ms-auto">
+        <a href="#home" class="logo">
+            AIR<span>ENE.</span>
+        </a>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#home">Home</a>
-                    </li>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
+    </div>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#skills">Skills</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projects</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#experience">Experience</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#education">Education</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-
-                </ul>
-            </div>
-
-        </div>
-    </nav>
 </header>
 
 
 <!-- =========================
      HERO
 ========================= -->
-<main>
 
-<section id="home" class="hero-section">
-    <div class="container">
-        <div class="row align-items-center min-vh-100">
+<section id="home" class="hero">
 
-            <!-- Text -->
-            <div class="col-lg-7">
-                <p class="hero-subtitle">
-                    HELLO, I'M
-                </p>
+    <div class="hero-content">
 
-                <h1>
-                    Airene Sri Oktavia Situmorang
-                </h1>
+        <p class="small-title">
+            INFORMATION SYSTEMS STUDENT
+        </p>
 
-                <h2>
-                    Information Systems Student
-                </h2>
+        <h1>
+            Hello,<br>
+            I'm <span>Airene.</span>
+        </h1>
 
-                <p class="hero-description">
-                    Mahasiswa Sistem Informasi yang tertarik pada web development,
-                    UI/UX design, teknologi informasi, dan pengembangan sistem.
-                </p>
+        <h2>
+            Airene Sri Oktavia Situmorang
+        </h2>
 
-                <div class="hero-buttons">
+        <p class="hero-description">
+            Saya adalah mahasiswa aktif S1 Sistem Informasi di
+            Institut Teknologi Del yang memiliki ketertarikan
+            pada teknologi, UI/UX, web development, database,
+            dan multimedia.
+        </p>
 
-                    <a href="#projects" class="btn btn-primary custom-btn me-2">
-                        <i class="bi bi-folder2-open"></i>
-                        Lihat Portfolio
-                    </a>
+        <div class="student-status">
+            ● Mahasiswa Aktif — Institut Teknologi Del
+        </div>
 
-                    <a href="#contact" class="btn btn-outline-primary custom-outline-btn">
-                        <i class="bi bi-envelope"></i>
-                        Hubungi Saya
-                    </a>
+        <div class="buttons">
 
-                </div>
-            </div>
+            <a href="#projects" class="btn primary">
+                View My Portfolio
+            </a>
 
-            <!-- Profile -->
-            <div class="col-lg-5 text-center mt-5 mt-lg-0">
-
-                <div class="profile-wrapper">
-
-                    <img
-                        src="profile.jpg.jpeg"
-                        alt="Foto Airene"
-                        class="profile-image"
-                    >
-
-                </div>
-
-            </div>
+            <a href="#contact" class="btn secondary">
+                Contact Me
+            </a>
 
         </div>
+
     </div>
+
+
+    <!-- FOTO PROFILE -->
+
+    <div class="photo-section">
+
+        <div class="blue-circle"></div>
+
+        <div class="photo-frame">
+
+            <img
+                src="profile.jpg.jpeg"
+                alt="Foto Airene Sri Oktavia Situmorang"
+            >
+
+        </div>
+
+        <div class="photo-label">
+
+            <strong>
+                Airene Sri Oktavia Situmorang
+            </strong>
+
+            <span>
+                Information Systems Student
+            </span>
+
+        </div>
+
+    </div>
+
 </section>
 
 
 <!-- =========================
      ABOUT
 ========================= -->
-<section id="about" class="section-padding">
-    <div class="container">
 
-        <div class="section-title text-center">
-            <p class="section-label">ABOUT ME</p>
+<section id="about" class="section">
 
-            <h2>Tentang Saya</h2>
+    <div class="section-heading">
+
+        <p>
+            01 — ABOUT ME
+        </p>
+
+        <h2>
+            Get to know <span>me.</span>
+        </h2>
+
+    </div>
+
+
+    <div class="about-container">
+
+        <div class="about-text">
+
+            <h3>
+                Student who enjoys technology and creativity.
+            </h3>
 
             <p>
-                Sedikit tentang saya dan ketertarikan saya di bidang teknologi.
+                Saya merupakan mahasiswa aktif S1 Sistem Informasi
+                di Institut Teknologi Del. Saya tertarik mempelajari
+                bagaimana teknologi dapat digunakan untuk menciptakan
+                solusi yang bermanfaat.
             </p>
+
+            <p>
+                Selama perkuliahan, saya mempelajari berbagai bidang
+                seperti pemrograman, database, web development,
+                UI/UX, dan multimedia.
+            </p>
+
+            <p>
+                Selain kegiatan akademik, saya juga aktif dalam
+                organisasi dan berbagai project yang membantu saya
+                mengembangkan kemampuan teknis, kreativitas,
+                komunikasi, dan kerja sama.
+            </p>
+
         </div>
 
-        <div class="row align-items-center">
 
-            <div class="col-lg-6 mb-4 mb-lg-0">
+        <aside class="info-card">
 
-                <h3>Mahasiswa Sistem Informasi</h3>
+            <h3>
+                Quick Information
+            </h3>
 
-                <p>
-                    Saya adalah mahasiswa Program Studi Sistem Informasi
-                    yang memiliki ketertarikan terhadap teknologi,
-                    pengembangan website, database, dan desain antarmuka.
-                </p>
+            <div class="info-item">
 
-                <p>
-                    Saya senang mempelajari hal baru dan mengembangkan
-                    kemampuan melalui berbagai tugas, project, dan kegiatan
-                    yang berhubungan dengan teknologi informasi.
-                </p>
+                <span>FULL NAME</span>
+
+                <strong>
+                    Airene Sri Oktavia Situmorang
+                </strong>
 
             </div>
 
-            <div class="col-lg-6">
 
-                <div class="about-box">
+            <div class="info-item">
 
-                    <div class="about-item">
-                        <i class="bi bi-person"></i>
-                        <div>
-                            <small>Nama</small>
-                            <strong>Airene Sri Oktavia Situmorang</strong>
-                        </div>
-                    </div>
+                <span>STATUS</span>
 
-                    <div class="about-item">
-                        <i class="bi bi-mortarboard"></i>
-                        <div>
-                            <small>Program Studi</small>
-                            <strong>Sistem Informasi</strong>
-                        </div>
-                    </div>
-
-                    <div class="about-item">
-                        <i class="bi bi-code-slash"></i>
-                        <div>
-                            <small>Interest</small>
-                            <strong>Web Development & UI/UX</strong>
-                        </div>
-                    </div>
-
-                </div>
+                <strong>
+                    Mahasiswa Aktif
+                </strong>
 
             </div>
 
-        </div>
+
+            <div class="info-item">
+
+                <span>UNIVERSITY</span>
+
+                <strong>
+                    Institut Teknologi Del
+                </strong>
+
+            </div>
+
+
+            <div class="info-item">
+
+                <span>PROGRAM</span>
+
+                <strong>
+                    S1 Sistem Informasi
+                </strong>
+
+            </div>
+
+
+            <div class="info-item">
+
+                <span>FACULTY</span>
+
+                <strong>
+                    Fakultas Informatika dan Teknik Elektro
+                </strong>
+
+            </div>
+
+
+            <div class="info-item">
+
+                <span>INTEREST</span>
+
+                <strong>
+                    Technology & Digital Creative
+                </strong>
+
+            </div>
+
+        </aside>
+
     </div>
+
 </section>
 
 
 <!-- =========================
      SKILLS
 ========================= -->
-<section id="skills" class="section-padding section-light">
-    <div class="container">
 
-        <div class="section-title text-center">
-            <p class="section-label">MY SKILLS</p>
-            <h2>Kemampuan</h2>
-            <p>
-                Beberapa teknologi dan kemampuan yang sedang saya pelajari.
-            </p>
-        </div>
+<section id="skills" class="section skills-section">
 
-        <div class="row g-4">
+    <div class="section-heading">
 
-            <div class="col-md-6 col-lg-3">
-                <div class="skill-card">
-                    <i class="bi bi-filetype-html"></i>
-                    <h4>HTML</h4>
-                    <p>
-                        Membuat struktur halaman web menggunakan HTML5.
-                    </p>
-                </div>
-            </div>
+        <p>
+            02 — MY SKILLS
+        </p>
 
-            <div class="col-md-6 col-lg-3">
-                <div class="skill-card">
-                    <i class="bi bi-filetype-css"></i>
-                    <h4>CSS</h4>
-                    <p>
-                        Mendesain tampilan website dengan CSS dan responsive layout.
-                    </p>
-                </div>
-            </div>
+        <h2>
+            Skills & <span>Interests.</span>
+        </h2>
 
-            <div class="col-md-6 col-lg-3">
-                <div class="skill-card">
-                    <i class="bi bi-code-square"></i>
-                    <h4>Java</h4>
-                    <p>
-                        Mempelajari pemrograman berorientasi objek menggunakan Java.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-md-6 col-lg-3">
-                <div class="skill-card">
-                    <i class="bi bi-palette"></i>
-                    <h4>UI/UX</h4>
-                    <p>
-                        Membuat rancangan antarmuka dan pengalaman pengguna.
-                    </p>
-                </div>
-            </div>
-
-        </div>
+        <p class="heading-description">
+            Kemampuan yang saya kembangkan melalui perkuliahan,
+            project, dan kegiatan organisasi.
+        </p>
 
     </div>
+
+
+    <!-- DATA DARI JSON -->
+
+    <div
+        id="keahlian-container"
+        class="skills-grid"
+    >
+
+        <p class="loading">
+            Memuat data keahlian...
+        </p>
+
+    </div>
+
 </section>
 
 
 <!-- =========================
      PROJECTS
 ========================= -->
-<section id="projects" class="section-padding">
-    <div class="container">
 
-        <div class="section-title text-center">
-            <p class="section-label">MY WORK</p>
+<section id="projects" class="section">
 
-            <h2>Portfolio</h2>
+    <div class="section-heading">
 
-            <p>
-                Beberapa project yang pernah saya kerjakan.
-            </p>
-        </div>
+        <p>
+            03 — MY PROJECTS
+        </p>
 
+        <h2>
+            Selected <span>works.</span>
+        </h2>
 
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <p class="heading-description">
+            Beberapa project yang telah saya kerjakan selama
+            perkuliahan dan kegiatan pengembangan kemampuan.
+        </p>
 
-
-            <!-- PROJECT 1 -->
-            <div class="col">
-                <div class="card project-card h-100">
-
-                    <div class="project-banner project-one">
-                        <i class="bi bi-heart-pulse"></i>
-                    </div>
-
-                    <div class="card-body">
-
-                        <span class="badge technology-badge">
-                            UI/UX
-                        </span>
-
-                        <h5 class="card-title">
-                            ImmuniCare
-                        </h5>
-
-                        <p class="card-text">
-                            Aplikasi yang membantu orang tua memantau jadwal
-                            imunisasi, informasi vaksin, dan pengingat imunisasi.
-                        </p>
-
-                        <button
-                            class="btn btn-primary btn-sm"
-                            data-bs-toggle="modal"
-                            data-bs-target="#modalImmuniCare"
-                        >
-                            <i class="bi bi-eye"></i>
-                            Lihat Detail
-                        </button>
-
-                    </div>
-                </div>
-            </div>
-
-
-            <!-- PROJECT 2 -->
-            <div class="col">
-                <div class="card project-card h-100">
-
-                    <div class="project-banner project-two">
-                        <i class="bi bi-chat-heart"></i>
-                    </div>
-
-                    <div class="card-body">
-
-                        <span class="badge technology-badge">
-                            Web System
-                        </span>
-
-                        <h5 class="card-title">
-                            Sistem Konseling Mahasiswa
-                        </h5>
-
-                        <p class="card-text">
-                            Konsep sistem yang membantu mahasiswa melakukan
-                            pengajuan dan penjadwalan konseling.
-                        </p>
-
-                        <button
-                            class="btn btn-primary btn-sm"
-                            data-bs-toggle="modal"
-                            data-bs-target="#modalKonseling"
-                        >
-                            <i class="bi bi-eye"></i>
-                            Lihat Detail
-                        </button>
-
-                    </div>
-                </div>
-            </div>
-
-
-            <!-- PROJECT 3 -->
-            <div class="col">
-                <div class="card project-card h-100">
-
-                    <div class="project-banner project-three">
-                        <i class="bi bi-cpu"></i>
-                    </div>
-
-                    <div class="card-body">
-
-                        <span class="badge technology-badge">
-                            AI & Education
-                        </span>
-
-                        <h5 class="card-title">
-                            LENTERA-AI
-                        </h5>
-
-                        <p class="card-text">
-                            Konsep platform pembelajaran STEM berbasis Edge AI
-                            untuk membantu pembelajaran di daerah dengan
-                            koneksi internet terbatas.
-                        </p>
-
-                        <button
-                            class="btn btn-primary btn-sm"
-                            data-bs-toggle="modal"
-                            data-bs-target="#modalLentera"
-                        >
-                            <i class="bi bi-eye"></i>
-                            Lihat Detail
-                        </button>
-
-                    </div>
-                </div>
-            </div>
-
-
-            <!-- PROJECT 4 -->
-            <div class="col">
-                <div class="card project-card h-100">
-
-                    <div class="project-banner project-four">
-                        <i class="bi bi-shield-check"></i>
-                    </div>
-
-                    <div class="card-body">
-
-                        <span class="badge technology-badge">
-                            AI & Algorithm
-                        </span>
-
-                        <h5 class="card-title">
-                            UCS Health Insurance
-                        </h5>
-
-                        <p class="card-text">
-                            Sistem konsep penerapan Uniform Cost Search
-                            untuk mengoptimalkan alur verifikasi klaim
-                            asuransi kesehatan.
-                        </p>
-
-                        <button
-                            class="btn btn-primary btn-sm"
-                            data-bs-toggle="modal"
-                            data-bs-target="#modalUCS"
-                        >
-                            <i class="bi bi-eye"></i>
-                            Lihat Detail
-                        </button>
-
-                    </div>
-                </div>
-            </div>
-
-
-        </div>
     </div>
+
+
+    <!-- DATA DARI JSON -->
+
+    <div
+        id="project-container"
+        class="projects-grid"
+    >
+
+        <p class="loading">
+            Memuat data project...
+        </p>
+
+    </div>
+
 </section>
 
 
 <!-- =========================
      EXPERIENCE
 ========================= -->
-<section id="experience" class="section-padding section-light">
 
-    <div class="container">
+<section
+    id="experience"
+    class="section experience-section"
+>
 
-        <div class="section-title text-center">
-            <p class="section-label">EXPERIENCE</p>
-            <h2>Pengalaman</h2>
-        </div>
+    <div class="section-heading">
 
-        <div class="experience-box">
+        <p>
+            04 — EXPERIENCE
+        </p>
 
-            <div class="experience-item">
+        <h2>
+            My <span>experience.</span>
+        </h2>
 
-                <div class="experience-icon">
-                    <i class="bi bi-people"></i>
-                </div>
+        <p class="heading-description">
+            Pengalaman organisasi dan kegiatan pengembangan
+            diri selama menjadi mahasiswa.
+        </p>
 
-                <div>
-                    <h4>Project & Teamwork</h4>
+    </div>
 
-                    <p>
-                        Berpengalaman mengerjakan berbagai tugas dan project
-                        bersama tim dalam bidang Sistem Informasi.
-                    </p>
+
+    <div class="experience-container">
+
+
+        <div class="experience-item">
+
+            <div class="experience-year">
+                2026
+            </div>
+
+            <div>
+
+                <span class="experience-type">
+                    CAMPUS AMBASSADOR
+                </span>
+
+                <h3>
+                    MySkill Campus Ambassador 2026
+                </h3>
+
+                <p>
+                    Berpartisipasi dalam program MySkill Campus
+                    Ambassador 2026 untuk mengembangkan kemampuan
+                    career development, communication, personal
+                    branding, dan content creation.
+                </p>
+
+                <div class="tags">
+
+                    <span>
+                        Campus Ambassador
+                    </span>
+
+                    <span>
+                        Content Creation
+                    </span>
+
+                    <span>
+                        Career Development
+                    </span>
+
                 </div>
 
             </div>
 
-            <div class="experience-item">
+        </div>
 
-                <div class="experience-icon">
-                    <i class="bi bi-laptop"></i>
-                </div>
 
-                <div>
-                    <h4>Academic Projects</h4>
+        <div class="experience-item">
 
-                    <p>
-                        Mengerjakan project yang berkaitan dengan programming,
-                        database, UI/UX, dan pengembangan sistem.
-                    </p>
+            <div class="experience-year">
+                ACTIVE
+            </div>
+
+            <div>
+
+                <span class="experience-type">
+                    ORGANIZATION
+                </span>
+
+                <h3>
+                    HIMSI — Multimedia
+                </h3>
+
+                <p>
+                    Aktif berkontribusi dalam bidang multimedia
+                    Himpunan Mahasiswa Sistem Informasi melalui
+                    desain visual, dokumentasi, dan kebutuhan
+                    media kegiatan organisasi.
+                </p>
+
+                <div class="tags">
+
+                    <span>
+                        Multimedia
+                    </span>
+
+                    <span>
+                        Visual Design
+                    </span>
+
+                    <span>
+                        Documentation
+                    </span>
+
                 </div>
 
             </div>
@@ -519,29 +451,47 @@
 <!-- =========================
      EDUCATION
 ========================= -->
-<section id="education" class="section-padding">
 
-    <div class="container">
+<section
+    id="education"
+    class="section education-section"
+>
 
-        <div class="section-title text-center">
-            <p class="section-label">EDUCATION</p>
-            <h2>Pendidikan</h2>
+    <div class="section-heading">
+
+        <p>
+            05 — EDUCATION
+        </p>
+
+        <h2>
+            My <span>education.</span>
+        </h2>
+
+    </div>
+
+
+    <div class="education-card">
+
+        <div class="education-year">
+            2024 — PRESENT
         </div>
 
-        <div class="education-card">
+        <div class="education-content">
 
-            <i class="bi bi-mortarboard-fill"></i>
+            <h3>
+                Institut Teknologi Del
+            </h3>
 
-            <div>
-                <h3>Program Studi Sistem Informasi</h3>
+            <p>
+                S1 Sistem Informasi
+            </p>
 
-                <p>
-                    Institut Teknologi Del
-                </p>
+            <span>
+                Fakultas Informatika dan Teknik Elektro
+            </span>
 
-                <span>
-                    Mahasiswa Sistem Informasi
-                </span>
+            <div class="active-student">
+                ● Mahasiswa Aktif
             </div>
 
         </div>
@@ -554,183 +504,63 @@
 <!-- =========================
      CONTACT
 ========================= -->
-<section id="contact" class="section-padding section-light">
 
-    <div class="container">
+<section
+    id="contact"
+    class="contact-section"
+>
 
-        <div class="section-title text-center">
-            <p class="section-label">CONTACT</p>
+    <div class="contact-container">
 
-            <h2>Hubungi Saya</h2>
+        <p class="small-title">
+            06 — CONTACT
+        </p>
 
-            <p>
-                Silakan isi form berikut jika ingin menghubungi saya.
-            </p>
-        </div>
+        <h2>
+            Let's connect<br>
+            <span>with me.</span>
+        </h2>
 
-
-        <div class="row justify-content-center">
-
-            <div class="col-lg-8">
-
-                <form
-                    id="contactForm"
-                    class="contact-form needs-validation"
-                    novalidate
-                >
-
-                    <!-- NAME -->
-                    <div class="form-floating mb-3">
-
-                        <input
-                            type="text"
-                            class="form-control"
-                            id="name"
-                            placeholder="Nama Lengkap"
-                            required
-                        >
-
-                        <label for="name">
-                            <i class="bi bi-person"></i>
-                            Nama Lengkap
-                        </label>
-
-                        <div class="valid-feedback">
-                            Nama sudah diisi.
-                        </div>
-
-                        <div class="invalid-feedback">
-                            Nama wajib diisi.
-                        </div>
-
-                    </div>
+        <p>
+            Jika ingin terhubung atau berdiskusi mengenai
+            project, kegiatan mahasiswa, teknologi, maupun
+            kolaborasi, silakan hubungi saya melalui email,
+            nomor telepon, atau LinkedIn.
+        </p>
 
 
-                    <!-- EMAIL -->
-                    <div class="input-group mb-3">
+        <div class="contact-buttons">
 
-                        <span class="input-group-text">
-                            <i class="bi bi-envelope"></i>
-                        </span>
+            <!-- EMAIL -->
 
-                        <div class="form-floating flex-grow-1">
-
-                            <input
-                                type="email"
-                                class="form-control"
-                                id="email"
-                                placeholder="Email"
-                                required
-                            >
-
-                            <label for="email">
-                                Email
-                            </label>
-
-                            <div class="invalid-feedback">
-                                Masukkan email yang valid.
-                            </div>
-
-                        </div>
-
-                    </div>
+            <a
+                href="mailto:irensitumorang2020@gmail.com"
+                class="email-button"
+            >
+                ✉ irensitumorang2020@gmail.com
+            </a>
 
 
-                    <!-- SELECT -->
-                    <div class="form-floating mb-3">
+            <!-- NOMOR HP -->
 
-                        <select
-                            class="form-select"
-                            id="service"
-                            required
-                        >
-
-                            <option value="" selected disabled>
-                                Pilih layanan
-                            </option>
-
-                            <option value="website">
-                                Website
-                            </option>
-
-                            <option value="uiux">
-                                UI/UX Design
-                            </option>
-
-                            <option value="consultation">
-                                Konsultasi Project
-                            </option>
-
-                        </select>
-
-                        <label for="service">
-                            Pilih Kebutuhan
-                        </label>
-
-                        <div class="invalid-feedback">
-                            Silakan pilih kebutuhan.
-                        </div>
-
-                    </div>
+            <a
+                href="tel:081272865624"
+                class="phone-button"
+            >
+                ☎ 081272865624
+            </a>
 
 
-                    <!-- MESSAGE -->
-                    <div class="form-floating mb-3">
+            <!-- LINKEDIN -->
 
-                        <textarea
-                            class="form-control message-input"
-                            id="message"
-                            placeholder="Pesan"
-                            required
-                        ></textarea>
-
-                        <label for="message">
-                            Pesan
-                        </label>
-
-                        <div class="invalid-feedback">
-                            Pesan wajib diisi.
-                        </div>
-
-                    </div>
-
-
-                    <!-- CHECKBOX -->
-                    <div class="form-check mb-4">
-
-                        <input
-                            class="form-check-input"
-                            type="checkbox"
-                            id="agreement"
-                            required
-                        >
-
-                        <label
-                            class="form-check-label"
-                            for="agreement"
-                        >
-                            Saya menyetujui bahwa data yang saya kirim
-                            digunakan untuk keperluan komunikasi.
-                        </label>
-
-                        <div class="invalid-feedback">
-                            Kamu harus menyetujui sebelum mengirim.
-                        </div>
-
-                    </div>
-
-
-                    <button
-                        type="submit"
-                        class="btn btn-primary custom-btn"
-                    >
-                        <i class="bi bi-send"></i>
-                        Kirim Pesan
-                    </button>
-
-                </form>
-
-            </div>
+            <a
+                href="https://www.linkedin.com/in/airene-sri-oktavia-situmorang-76997b409"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="linkedin-button"
+            >
+                in Airene Sri Oktavia Situmorang
+            </a>
 
         </div>
 
@@ -738,281 +568,38 @@
 
 </section>
 
-</main>
-
 
 <!-- =========================
-     MODAL 1 - IMMUNICARE
+     PROJECT MODAL
 ========================= -->
+
 <div
-    class="modal fade"
-    id="modalImmuniCare"
-    tabindex="-1"
-    aria-labelledby="modalImmuniCareLabel"
-    aria-hidden="true"
+    id="projectModal"
+    class="modal-overlay"
 >
 
-    <div class="modal-dialog modal-dialog-centered">
-
-        <div class="modal-content">
-
-            <div class="modal-header">
-
-                <h5
-                    class="modal-title"
-                    id="modalImmuniCareLabel"
-                >
-                    ImmuniCare
-                </h5>
-
-                <button
-                    type="button"
-                    class="btn-close"
-                    data-bs-dismiss="modal"
-                    aria-label="Close"
-                ></button>
-
-            </div>
-
-            <div class="modal-body">
-
-                <p>
-                    ImmuniCare merupakan konsep aplikasi mobile yang membantu
-                    orang tua mengingat jadwal imunisasi anak.
-                </p>
-
-                <p>
-                    Fitur yang dirancang meliputi pengingat imunisasi,
-                    informasi vaksin, booking, dan tracking imunisasi.
-                </p>
-
-                <div class="modal-tags">
-                    <span class="badge">UI/UX</span>
-                    <span class="badge">Figma</span>
-                    <span class="badge">Mobile App</span>
-                </div>
-
-            </div>
-
-            <div class="modal-footer">
-
-                <button
-                    type="button"
-                    class="btn btn-secondary"
-                    data-bs-dismiss="modal"
-                >
-                    Tutup
-                </button>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</div>
-
-
-<!-- =========================
-     MODAL 2 - KONSELING
-========================= -->
-<div
-    class="modal fade"
-    id="modalKonseling"
-    tabindex="-1"
-    aria-labelledby="modalKonselingLabel"
-    aria-hidden="true"
->
-
-    <div class="modal-dialog modal-dialog-centered">
-
-        <div class="modal-content">
-
-            <div class="modal-header">
-
-                <h5
-                    class="modal-title"
-                    id="modalKonselingLabel"
-                >
-                    Sistem Konseling Mahasiswa
-                </h5>
-
-                <button
-                    type="button"
-                    class="btn-close"
-                    data-bs-dismiss="modal"
-                    aria-label="Close"
-                ></button>
-
-            </div>
-
-            <div class="modal-body">
-
-                <p>
-                    Sistem Konseling Mahasiswa dirancang untuk membantu
-                    mahasiswa mengajukan konseling secara lebih terstruktur.
-                </p>
-
-                <p>
-                    Alur sistem mencakup pengajuan, review konselor,
-                    penjadwalan, sesi konseling, dan penyimpanan laporan.
-                </p>
-
-                <div class="modal-tags">
-                    <span class="badge">Web System</span>
-                    <span class="badge">System Analysis</span>
-                    <span class="badge">Database</span>
-                </div>
-
-            </div>
-
-            <div class="modal-footer">
-
-                <button
-                    type="button"
-                    class="btn btn-secondary"
-                    data-bs-dismiss="modal"
-                >
-                    Tutup
-                </button>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</div>
-
-
-<!-- =========================
-     MODAL 3 - LENTERA
-========================= -->
-<div
-    class="modal fade"
-    id="modalLentera"
-    tabindex="-1"
-    aria-labelledby="modalLenteraLabel"
-    aria-hidden="true"
->
-
-    <div class="modal-dialog modal-dialog-centered">
-
-        <div class="modal-content">
-
-            <div class="modal-header">
-
-                <h5
-                    class="modal-title"
-                    id="modalLenteraLabel"
-                >
-                    LENTERA-AI
-                </h5>
-
-                <button
-                    type="button"
-                    class="btn-close"
-                    data-bs-dismiss="modal"
-                ></button>
-
-            </div>
-
-            <div class="modal-body">
-
-                <p>
-                    LENTERA-AI merupakan konsep platform pembelajaran STEM
-                    berbasis Edge AI yang ditujukan untuk membantu siswa
-                    di daerah dengan keterbatasan koneksi internet.
-                </p>
-
-                <div class="modal-tags">
-                    <span class="badge">AI</span>
-                    <span class="badge">STEM</span>
-                    <span class="badge">Education</span>
-                </div>
-
-            </div>
-
-            <div class="modal-footer">
-
-                <button
-                    type="button"
-                    class="btn btn-secondary"
-                    data-bs-dismiss="modal"
-                >
-                    Tutup
-                </button>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</div>
-
-
-<!-- =========================
-     MODAL 4 - UCS
-========================= -->
-<div
-    class="modal fade"
-    id="modalUCS"
-    tabindex="-1"
-    aria-labelledby="modalUCSLabel"
-    aria-hidden="true"
->
-
-    <div class="modal-dialog modal-dialog-centered">
-
-        <div class="modal-content">
-
-            <div class="modal-header">
-
-                <h5
-                    class="modal-title"
-                    id="modalUCSLabel"
-                >
-                    UCS Health Insurance
-                </h5>
-
-                <button
-                    type="button"
-                    class="btn-close"
-                    data-bs-dismiss="modal"
-                ></button>
-
-            </div>
-
-            <div class="modal-body">
-
-                <p>
-                    Project ini menerapkan algoritma Uniform Cost Search
-                    untuk membantu menentukan alur verifikasi klaim
-                    asuransi kesehatan berdasarkan biaya atau bobot proses.
-                </p>
-
-                <div class="modal-tags">
-                    <span class="badge">UCS</span>
-                    <span class="badge">AI</span>
-                    <span class="badge">Insurance</span>
-                </div>
-
-            </div>
-
-            <div class="modal-footer">
-
-                <button
-                    type="button"
-                    class="btn btn-secondary"
-                    data-bs-dismiss="modal"
-                >
-                    Tutup
-                </button>
-
-            </div>
-
-        </div>
+    <div class="modal-box">
+
+        <button
+            id="closeModal"
+            class="modal-close"
+        >
+            ×
+        </button>
+
+        <span
+            id="modalCategory"
+            class="modal-category"
+        ></span>
+
+        <h2 id="modalTitle"></h2>
+
+        <p id="modalDescription"></p>
+
+        <div
+            id="modalTags"
+            class="modal-tags"
+        ></div>
 
     </div>
 
@@ -1022,83 +609,49 @@
 <!-- =========================
      FOOTER
 ========================= -->
-<footer class="footer">
 
-    <div class="container text-center">
+<footer>
 
-        <h5>AIRENE.</h5>
+    <p>
+        © 2026 Airene Sri Oktavia Situmorang
+    </p>
 
-        <p>
-            Information Systems Student
-        </p>
+    <p>
+        Information Systems Student · Institut Teknologi Del
+    </p>
 
-        <div class="social-links">
+    <div class="footer-links">
 
-            <a href="#" aria-label="GitHub">
-                <i class="bi bi-github"></i>
-            </a>
+        <a
+            href="https://www.linkedin.com/in/airene-sri-oktavia-situmorang-76997b409"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            LinkedIn
+        </a>
 
-            <a href="#" aria-label="LinkedIn">
-                <i class="bi bi-linkedin"></i>
-            </a>
+        <a href="tel:081272865624">
+            081272865624
+        </a>
 
-            <a href="#contact" aria-label="Email">
-                <i class="bi bi-envelope"></i>
-            </a>
-
-        </div>
-
-        <hr>
-
-        <p class="copyright">
-            © 2026 Airene Sri Oktavia Situmorang. All Rights Reserved.
-        </p>
+        <a href="mailto:irensitumorang2020@gmail.com">
+            Email
+        </a>
 
     </div>
 
 </footer>
 
 
-<!-- Bootstrap JS -->
-<script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
-</script>
+<!-- =========================
+     JAVASCRIPT
+========================= -->
 
+<script src="js/api-service.js"></script>
 
-<!-- Form Validation -->
-<script>
+<script src="js/app.js"></script>
 
-    (() => {
-        'use strict';
-
-        const form = document.getElementById('contactForm');
-
-        form.addEventListener('submit', function (event) {
-
-            if (!form.checkValidity()) {
-
-                event.preventDefault();
-                event.stopPropagation();
-
-            } else {
-
-                event.preventDefault();
-
-                alert('Pesan berhasil dikirim!');
-
-                form.reset();
-                form.classList.remove('was-validated');
-                return;
-
-            }
-
-            form.classList.add('was-validated');
-
-        });
-
-    })();
-
-</script>
 
 </body>
+
 </html>

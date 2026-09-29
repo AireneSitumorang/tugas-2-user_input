@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "nama": "Web Development",
+        "icon": "</>",
+        "deskripsi": "Membuat struktur dan tampilan website menggunakan HTML dan CSS.",
+        "tags": [
+            "HTML",
+            "CSS"
+        ]
+    },
+    {
+        "id": 2,
+        "nama": "UI/UX Design",
+        "icon": "✦",
+        "deskripsi": "Merancang interface dan pengalaman pengguna untuk aplikasi dan produk digital.",
+        "tags": [
+            "Figma",
+            "UI/UX"
+        ]
+    },
+    {
+        "id": 3,
+        "nama": "Database",
+        "icon": "DB",
+        "deskripsi": "Mempelajari pengelolaan data dan penggunaan SQL dalam sistem informasi.",
+        "tags": [
+            "SQL",
+            "Database"
+        ]
+    },
+    {
+        "id": 4,
+        "nama": "Multimedia",
+        "icon": "+",
+        "deskripsi": "Membuat kebutuhan visual, desain, dokumentasi, dan media untuk berbagai kegiatan.",
+        "tags": [
+            "Design",
+            "Creative"
+        ]
+    },
+    {
+        "id": 5,
+        "nama": "Java Programming",
+        "icon": "JV",
+        "deskripsi": "Mempelajari pemrograman berorientasi objek menggunakan bahasa Java.",
+        "tags": [
+            "Java",
+            "OOP"
+        ]
+    },
+    {
+        "id": 6,
+        "nama": "Git & GitHub",
+        "icon": "GH",
+        "deskripsi": "Menggunakan Git dan GitHub untuk mengelola project dan version control.",
+        "tags": [
+            "Git",
+            "GitHub"
+        ]
+    }
+]
