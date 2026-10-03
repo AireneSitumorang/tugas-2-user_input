@@ -1,86 +1,224 @@
 [
     {
         "id": 1,
-        "nama": "ImmuniCare",
         "kategori": "UI/UX",
-        "deskripsi": "Perancangan aplikasi yang membantu orang tua mendapatkan informasi dan mengelola jadwal imunisasi anak.",
-        "detail": "ImmuniCare merupakan project perancangan aplikasi yang berfokus pada informasi vaksin, jadwal imunisasi, pengingat imunisasi, dan kebutuhan orang tua dalam memantau imunisasi anak.",
+        "nama": "ImmuniCare",
+        "deskripsi": "Aplikasi yang membantu orang tua memantau jadwal imunisasi, informasi vaksin, dan pengingat imunisasi.",
+        "detail": "ImmuniCare merupakan konsep aplikasi yang dirancang untuk membantu orang tua dalam memantau informasi dan jadwal imunisasi anak.",
+        "metrics": [
+            "UI/UX Concept",
+            "User Flow",
+            "Mobile App"
+        ],
         "tags": [
             "UI/UX",
             "Figma",
             "Mobile App"
-        ]
+        ],
+        "image": "https://placehold.co/900x560/png?text=ImmuniCare",
+        "link": "#"
     },
+
     {
         "id": 2,
-        "nama": "Personal Portfolio",
         "kategori": "WEB",
-        "deskripsi": "Website portfolio pribadi untuk menampilkan profil, kemampuan, pendidikan, pengalaman, dan project.",
-        "detail": "Personal Portfolio dibuat untuk menampilkan informasi diri, skills, project, pengalaman organisasi, pendidikan, dan informasi kontak dalam sebuah website.",
+        "nama": "Personal Portfolio",
+        "deskripsi": "Website portfolio pribadi yang menampilkan profil, skills, pengalaman, dan project.",
+        "detail": "Project ini merupakan website portfolio pribadi yang digunakan untuk menampilkan informasi akademik, keahlian, pengalaman, dan koleksi project.",
+        "metrics": [
+            "Portfolio Website",
+            "Responsive Layout",
+            "Dynamic Content"
+        ],
         "tags": [
             "HTML",
             "CSS",
+            "JavaScript",
             "Web"
-        ]
+        ],
+        "image": "https://placehold.co/900x560/png?text=Personal+Portfolio",
+        "link": "https://airenesitumorang.github.io/tugas-2-user_input/"
     },
+
     {
         "id": 3,
-        "nama": "Sistem Informasi Rumah Sakit",
         "kategori": "SYSTEM",
-        "deskripsi": "Project sistem informasi yang menerapkan konsep pemrograman, database, inheritance, JDBC, dan pengelolaan data.",
-        "detail": "Project ini merupakan sistem informasi rumah sakit yang digunakan untuk menerapkan konsep Java, Object Oriented Programming, database, JDBC, inheritance, dan pengelolaan data.",
+        "nama": "Sistem Informasi Rumah Sakit",
+        "deskripsi": "Project sistem informasi rumah sakit yang menerapkan konsep Java, OOP, database, JDBC, dan inheritance.",
+        "detail": "Project ini merupakan pengembangan sistem informasi rumah sakit dengan menerapkan konsep pemrograman berorientasi objek, database, JDBC, inheritance, dan pengelolaan data.",
+        "metrics": [
+            "Java OOP",
+            "Database",
+            "JDBC"
+        ],
         "tags": [
             "Java",
             "SQL",
             "Database"
-        ]
+        ],
+        "image": "https://placehold.co/900x560/png?text=Hospital+System",
+        "link": "#"
     },
+
     {
         "id": 4,
-        "nama": "HIMSI Multimedia",
         "kategori": "ORGANIZATION",
-        "deskripsi": "Berkontribusi dalam bidang multimedia Himpunan Mahasiswa Sistem Informasi melalui desain, dokumentasi, dan kebutuhan media kegiatan.",
-        "detail": "HIMSI Multimedia merupakan pengalaman organisasi dalam membantu kebutuhan visual, desain, dokumentasi, dan media untuk berbagai kegiatan Himpunan Mahasiswa Sistem Informasi.",
+        "nama": "HIMSI Multimedia",
+        "deskripsi": "Kegiatan multimedia organisasi yang berkaitan dengan desain, dokumentasi, dan kebutuhan visual HIMSI.",
+        "detail": "Project dan kegiatan ini berkaitan dengan peran multimedia dalam mendukung kebutuhan desain, dokumentasi, dan konten visual organisasi mahasiswa.",
+        "metrics": [
+            "Visual Content",
+            "Documentation",
+            "Organization"
+        ],
         "tags": [
             "Multimedia",
             "Design",
             "Documentation"
-        ]
+        ],
+        "image": "https://placehold.co/900x560/png?text=HIMSI+Multimedia",
+        "link": "#"
     },
+
     {
         "id": 5,
-        "nama": "SkillBridge",
         "kategori": "UI/UX",
-        "deskripsi": "Project perancangan produk digital yang dikembangkan melalui user research, affinity mapping, dan perancangan solusi UI/UX.",
-        "detail": "SkillBridge merupakan project perancangan produk digital yang menerapkan proses user research, pengelompokan insight, dan perancangan interface berdasarkan kebutuhan pengguna.",
+        "nama": "SkillBridge",
+        "deskripsi": "Konsep UI/UX yang berfokus pada user research, affinity mapping, dan perancangan pengalaman pengguna.",
+        "detail": "SkillBridge merupakan project yang berfokus pada proses memahami kebutuhan pengguna melalui user research, affinity mapping, dan perancangan antarmuka.",
+        "metrics": [
+            "User Research",
+            "Affinity Mapping",
+            "UI Prototype"
+        ],
         "tags": [
             "UI/UX",
             "Figma",
             "User Research"
-        ]
+        ],
+        "image": "https://placehold.co/900x560/png?text=SkillBridge",
+        "link": "#"
     },
+
     {
         "id": 6,
-        "nama": "Advanced SQL & Database",
         "kategori": "DATABASE",
-        "deskripsi": "Praktikum database yang mencakup SQL, trigger, stored procedure, transaksi, dan validasi data.",
-        "detail": "Project praktikum ini berfokus pada penerapan SQL lanjutan seperti trigger, stored procedure, transaksi, validasi data, dan pengelolaan database.",
+        "nama": "Advanced SQL & Database",
+        "deskripsi": "Project latihan database yang menggunakan SQL, trigger, stored procedure, transaction, dan validation.",
+        "detail": "Project ini berisi penerapan konsep SQL lanjutan seperti trigger, stored procedure, transaction, validasi data, serta pengelolaan database.",
+        "metrics": [
+            "SQL",
+            "Trigger",
+            "Stored Procedure",
+            "Transaction"
+        ],
         "tags": [
             "SQL",
             "Database",
             "Trigger"
-        ]
+        ],
+        "image": "https://placehold.co/900x560/png?text=Advanced+SQL",
+        "link": "#"
     },
+
     {
         "id": 7,
-        "nama": "Sistem Informasi Kantin Digital Kampus",
         "kategori": "PROJECT MANAGEMENT",
-        "deskripsi": "Perancangan sistem informasi kantin digital kampus dengan pengelolaan project dan kolaborasi menggunakan tools manajemen project.",
-        "detail": "Project ini berfokus pada perancangan sistem informasi kantin digital kampus serta pengelolaan aktivitas project menggunakan pendekatan project management dan tools kolaborasi.",
+        "nama": "Sistem Informasi Kantin Digital Kampus",
+        "deskripsi": "Project sistem informasi kantin digital yang menggabungkan analisis sistem dan project management.",
+        "detail": "Project ini membahas perancangan sistem informasi kantin digital kampus serta pengelolaan pekerjaan menggunakan konsep project management dan collaboration tools.",
+        "metrics": [
+            "Information System",
+            "Project Planning",
+            "Team Collaboration"
+        ],
         "tags": [
             "Information System",
             "Asana",
             "Project Management"
-        ]
+        ],
+        "image": "https://placehold.co/900x560/png?text=Kantin+Digital",
+        "link": "#"
+    },
+
+    {
+        "id": 8,
+        "kategori": "WEB SYSTEM",
+        "nama": "Sistem Konseling Mahasiswa",
+        "deskripsi": "Sistem yang dirancang untuk membantu mahasiswa mengajukan konseling secara lebih terstruktur.",
+        "detail": "Project ini merupakan konsep sistem informasi yang membantu proses pengajuan dan pengelolaan konseling mahasiswa secara lebih terstruktur.",
+        "metrics": [
+            "System Analysis",
+            "Web System",
+            "Database"
+        ],
+        "tags": [
+            "Web System",
+            "System Analysis",
+            "Database"
+        ],
+        "image": "https://placehold.co/900x560/png?text=Konseling+Mahasiswa",
+        "link": "#"
+    },
+
+    {
+        "id": 9,
+        "kategori": "AI",
+        "nama": "LENTERA-AI",
+        "deskripsi": "Konsep platform pembelajaran STEM berbasis Edge AI untuk membantu siswa di daerah dengan keterbatasan koneksi internet.",
+        "detail": "LENTERA-AI merupakan konsep platform pembelajaran yang memanfaatkan Edge AI untuk mendukung pembelajaran STEM.",
+        "metrics": [
+            "Edge AI",
+            "STEM",
+            "Education"
+        ],
+        "tags": [
+            "AI",
+            "STEM",
+            "Education"
+        ],
+        "image": "https://placehold.co/900x560/png?text=LENTERA-AI",
+        "link": "#"
+    },
+
+    {
+        "id": 10,
+        "kategori": "AI & ALGORITHM",
+        "nama": "UCS Health Insurance",
+        "deskripsi": "Sistem konsep penerapan Uniform Cost Search untuk mengoptimalkan alur verifikasi klaim asuransi kesehatan.",
+        "detail": "Project ini menerapkan konsep Uniform Cost Search untuk membantu menentukan alur verifikasi klaim asuransi kesehatan berdasarkan biaya atau prioritas proses.",
+        "metrics": [
+            "Uniform Cost Search",
+            "AI",
+            "Claim Verification"
+        ],
+        "tags": [
+            "UCS",
+            "AI",
+            "Insurance"
+        ],
+        "image": "https://placehold.co/900x560/png?text=UCS+Health+Insurance",
+        "link": "#"
+    },
+
+    {
+        "id": 11,
+        "kategori": "WEB PROJECT",
+        "nama": "Tekno The Kit Co",
+        "deskripsi": "Project yang berkaitan dengan layanan penyewaan perlengkapan untuk kegiatan hiking atau mendaki.",
+        "detail": "Tekno The Kit Co merupakan konsep project yang mengangkat kebutuhan pengguna dalam mencari dan menyewa perlengkapan mendaki secara lebih terorganisir.",
+        "metrics": [
+            "Rental Service",
+            "Outdoor Equipment",
+            "Project Concept"
+        ],
+        "tags": [
+            "Rental System",
+            "Outdoor",
+            "Web",
+            "Project"
+        ],
+        "image": "https://placehold.co/900x560/png?text=Tekno+The+Kit+Co",
+        "link": "#"
     }
 ]

@@ -1,0 +1,40 @@
+[
+    {
+        "id": 1,
+        "nama": "Web Development",
+        "deskripsi": "Pembuatan dan pengembangan tampilan website sederhana menggunakan HTML, CSS, dan JavaScript.",
+        "harga": "Mulai dari Rp500.000",
+        "icon": "bi-code-slash",
+        "fitur": [
+            "Responsive Website",
+            "HTML & CSS",
+            "JavaScript"
+        ]
+    },
+
+    {
+        "id": 2,
+        "nama": "UI/UX Design",
+        "deskripsi": "Perancangan tampilan dan user experience untuk aplikasi atau website menggunakan pendekatan UI/UX.",
+        "harga": "Mulai dari Rp300.000",
+        "icon": "bi-palette",
+        "fitur": [
+            "User Flow",
+            "Wireframe",
+            "UI Design"
+        ]
+    },
+
+    {
+        "id": 3,
+        "nama": "Database & SQL",
+        "deskripsi": "Pembuatan dan pengelolaan struktur database serta kebutuhan query SQL untuk project sistem informasi.",
+        "harga": "Mulai dari Rp350.000",
+        "icon": "bi-database",
+        "fitur": [
+            "Database Design",
+            "SQL Query",
+            "Data Management"
+        ]
+    }
+]

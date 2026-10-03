@@ -1,0 +1,161 @@
+{
+    "nama": "Airene Sri Oktavia Situmorang",
+    "nim": "12S24058",
+    "programStudi": "Sistem Informasi",
+    "fakultas": "Fakultas Informatika dan Teknik Elektro",
+    "universitas": "Institut Teknologi Del",
+    "status": "Mahasiswa Aktif",
+    "role": "Information Systems Student",
+    "email": "irensitumorang2020@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/airene-sri-oktavia-situmorang-76997b409",
+    "image": "./profile.jpg.jpeg",
+
+    "description": "Mahasiswa aktif Sistem Informasi yang memiliki ketertarikan pada pengembangan web, UI/UX, database, multimedia, dan pengembangan sistem informasi.",
+
+    "about": "Saya merupakan mahasiswa aktif Program Studi Sistem Informasi di Institut Teknologi Del yang memiliki ketertarikan pada pengembangan web, UI/UX Design, database, multimedia, dan pengembangan sistem informasi. Saya senang mempelajari bagaimana teknologi dapat digunakan untuk membangun solusi yang terstruktur, mudah digunakan, dan sesuai dengan kebutuhan pengguna.",
+
+    "interests": [
+        "Web Development",
+        "UI/UX Design",
+        "Database",
+        "Multimedia",
+        "Information Systems"
+    ],
+
+    "hardSkills": [
+        {
+            "icon": "</>",
+            "nama": "Web Development",
+            "deskripsi": "Membuat struktur dan tampilan halaman web menggunakan HTML dan CSS serta memahami konsep responsive design.",
+            "tags": [
+                "HTML5",
+                "CSS",
+                "Responsive Design"
+            ]
+        },
+        {
+            "icon": "✦",
+            "nama": "UI/UX Design",
+            "deskripsi": "Membuat rancangan antarmuka dan memperhatikan pengalaman pengguna dalam sebuah produk digital.",
+            "tags": [
+                "Figma",
+                "UI Design",
+                "UX"
+            ]
+        },
+        {
+            "icon": "DB",
+            "nama": "Database",
+            "deskripsi": "Mempelajari pengelolaan data dan penggunaan SQL untuk kebutuhan sistem informasi.",
+            "tags": [
+                "SQL",
+                "Database"
+            ]
+        },
+        {
+            "icon": "+",
+            "nama": "Multimedia",
+            "deskripsi": "Mendukung kebutuhan visual, desain, dokumentasi, dan konten media untuk kegiatan organisasi maupun project.",
+            "tags": [
+                "Design",
+                "Creative",
+                "Documentation"
+            ]
+        },
+        {
+            "icon": "JV",
+            "nama": "Java Programming",
+            "deskripsi": "Mempelajari pemrograman berorientasi objek menggunakan bahasa Java.",
+            "tags": [
+                "Java",
+                "OOP"
+            ]
+        },
+        {
+            "icon": "GH",
+            "nama": "Git & GitHub",
+            "deskripsi": "Menggunakan Git dan GitHub untuk version control serta pengelolaan source code project.",
+            "tags": [
+                "Git",
+                "GitHub",
+                "Version Control"
+            ]
+        }
+    ],
+
+    "softSkills": [
+        {
+            "icon": "CO",
+            "nama": "Communication",
+            "deskripsi": "Menyampaikan ide, informasi, dan kebutuhan project dengan jelas dalam proses kerja bersama.",
+            "tags": [
+                "Communication",
+                "Presentation"
+            ]
+        },
+        {
+            "icon": "TW",
+            "nama": "Teamwork",
+            "deskripsi": "Bekerja sama dengan anggota tim dalam menyelesaikan tugas dan project.",
+            "tags": [
+                "Collaboration",
+                "Teamwork"
+            ]
+        },
+        {
+            "icon": "PS",
+            "nama": "Problem Solving",
+            "deskripsi": "Menganalisis masalah dan mencari alternatif solusi berdasarkan kebutuhan yang ada.",
+            "tags": [
+                "Analysis",
+                "Problem Solving"
+            ]
+        },
+        {
+            "icon": "CR",
+            "nama": "Creativity",
+            "deskripsi": "Mengembangkan ide visual dan konsep baru untuk mendukung kebutuhan project.",
+            "tags": [
+                "Creative Thinking",
+                "Ideation"
+            ]
+        },
+        {
+            "icon": "TM",
+            "nama": "Time Management",
+            "deskripsi": "Mengatur waktu pengerjaan tugas dan project agar dapat diselesaikan sesuai prioritas.",
+            "tags": [
+                "Planning",
+                "Time Management"
+            ]
+        },
+        {
+            "icon": "AD",
+            "nama": "Adaptability",
+            "deskripsi": "Beradaptasi dengan tools, teknologi, dan kebutuhan baru selama proses pembelajaran.",
+            "tags": [
+                "Learning",
+                "Adaptability"
+            ]
+        }
+    ],
+
+    "experience": [
+        {
+            "nama": "MySkill Ambassador",
+            "organisasi": "MySkill",
+            "deskripsi": "Berperan sebagai MySkill Ambassador dalam kegiatan dan aktivitas yang berkaitan dengan pembelajaran serta pengembangan karier mahasiswa."
+        },
+        {
+            "nama": "Multimedia HIMSI",
+            "organisasi": "Himpunan Mahasiswa Sistem Informasi",
+            "deskripsi": "Berperan di bidang Multimedia HIMSI dalam mendukung kebutuhan desain, dokumentasi, dan konten visual organisasi."
+        }
+    ],
+
+    "education": {
+        "institusi": "Institut Teknologi Del",
+        "program": "Sistem Informasi",
+        "status": "Mahasiswa Aktif"
+    }
+}

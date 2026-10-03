@@ -1,140 +1,83 @@
-// ==========================================
-// API SERVICE
-// ==========================================
+/* =========================================
+   DATA ACCESS LAYER
+   api-service.js
+========================================= */
 
 const ApiService = {
 
-    // ==========================================
-    // DATA KEAHLIAN / SKILLS
-    // ==========================================
-    async getKeahlian() {
+    /*
+     * Fungsi umum untuk mengambil data JSON
+     */
+    async request(url, options = {}) {
 
-        return [
-            {
-                icon: "HTML",
-                nama: "HTML",
-                deskripsi:
-                    "Membuat struktur halaman web menggunakan HTML5.",
-                tags: [
-                    "HTML5",
-                    "Web Development"
-                ]
-            },
+        const response = await fetch(url, options);
 
-            {
-                icon: "CSS",
-                nama: "CSS",
-                deskripsi:
-                    "Mendesain tampilan website menggunakan CSS dan membuat layout yang responsif.",
-                tags: [
-                    "CSS",
-                    "Responsive Design"
-                ]
-            },
+        if (!response.ok) {
+            throw new Error(
+                `Request gagal dengan status ${response.status}`
+            );
+        }
 
-            {
-                icon: "Java",
-                nama: "Java",
-                deskripsi:
-                    "Mempelajari pemrograman berorientasi objek menggunakan Java.",
-                tags: [
-                    "Java",
-                    "OOP"
-                ]
-            },
-
-            {
-                icon: "UI/UX",
-                nama: "UI/UX Design",
-                deskripsi:
-                    "Membuat rancangan antarmuka dan pengalaman pengguna.",
-                tags: [
-                    "Figma",
-                    "UI Design"
-                ]
-            }
-        ];
-
+        return await response.json();
     },
 
 
-    // ==========================================
-    // DATA PROJECT
-    // ==========================================
+    /*
+     * Mengambil data profile
+     */
+    async getProfile() {
+
+        return await this.request(
+            "./data/profile.json"
+        );
+    },
+
+
+    /*
+     * Mengambil data project
+     */
     async getProjects() {
 
-        return [
-            {
-                id: 1,
-                kategori: "UI/UX",
-                nama: "ImmuniCare",
-                deskripsi:
-                    "Aplikasi yang membantu orang tua memantau jadwal imunisasi, informasi vaksin, dan pengingat imunisasi.",
-                detail:
-                    "ImmuniCare merupakan konsep aplikasi yang dirancang untuk membantu orang tua dalam memantau informasi dan jadwal imunisasi anak.",
-                tags: [
-                    "UI/UX",
-                    "Figma",
-                    "Design"
-                ]
-            },
-
-            {
-                id: 2,
-                kategori: "Web System",
-                nama: "Sistem Konseling Mahasiswa",
-                deskripsi:
-                    "Sistem yang dirancang untuk membantu mahasiswa mengajukan konseling secara lebih terstruktur.",
-                detail:
-                    "Project ini merupakan konsep sistem informasi yang membantu proses pengajuan dan pengelolaan konseling mahasiswa.",
-                tags: [
-                    "Web System",
-                    "System Analysis",
-                    "Database"
-                ]
-            },
-
-            {
-                id: 3,
-                kategori: "AI",
-                nama: "LENTERA-AI",
-                deskripsi:
-                    "Konsep platform pembelajaran STEM berbasis Edge AI untuk membantu siswa di daerah dengan keterbatasan koneksi internet.",
-                detail:
-                    "LENTERA-AI merupakan konsep platform pembelajaran yang memanfaatkan Edge AI untuk mendukung pembelajaran STEM.",
-                tags: [
-                    "AI",
-                    "STEM",
-                    "Education"
-                ]
-            },
-
-            {
-                id: 4,
-                kategori: "AI & Algorithm",
-                nama: "UCS Health Insurance",
-                deskripsi:
-                    "Sistem konsep penerapan Uniform Cost Search untuk mengoptimalkan alur verifikasi klaim asuransi kesehatan.",
-                detail:
-                    "Project ini menerapkan konsep Uniform Cost Search untuk membantu menentukan alur verifikasi klaim asuransi kesehatan berdasarkan biaya atau prioritas proses.",
-                tags: [
-                    "UCS",
-                    "AI",
-                    "Insurance"
-                ]
-            }
-        ];
-
+        return await this.request(
+            "./data/projects.json"
+        );
     },
 
 
-    // ==========================================
-    // ALIAS PROJECT
-    // ==========================================
-    async getProyek() {
+    /*
+     * Mengambil data services
+     *
+     * Sesuai struktur modul:
+     * proyek/services.json
+     */
+    async getServices() {
 
-        return this.getProjects();
+        return await this.request(
+            "./proyek/services.json"
+        );
+    },
 
+
+    /*
+     * Mengirim data form menggunakan REST POST
+     *
+     * Endpoint ini digunakan sebagai mock API
+     * untuk kebutuhan praktikum.
+     */
+    async submitServiceOrder(payload) {
+
+        return await this.request(
+            "https://jsonplaceholder.typicode.com/posts",
+            {
+                method: "POST",
+
+                headers: {
+                    "Content-Type": "application/json"
+                },
+
+                body: JSON.stringify(payload)
+            }
+        );
     }
 
 };
